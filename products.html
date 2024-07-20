@@ -1,0 +1,742 @@
+<!DOCTYPE html>
+<html xmlns="https://www.w3.org/1999/xhtml" lang="en">
+
+<head id="Head1">
+    <title>
+        Always Dry
+    </title>
+    <meta id="MetaViewport" name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <meta name="description" content="Always Dry" />
+    <!--<link href="css/tbootstrap.css?ver=1.12" rel="stylesheet">-->
+    <link href='https://fonts.googleapis.com/icon?family=Material+Icons' rel='stylesheet' />
+
+    <script src='js/jquery-1.11.3.min.js?ver=1.6' type='text/javascript'></script>
+    <link href='https://cdn.jsdelivr.net/npm/font-awesome@4.7.0/css/font-awesome.css' rel='stylesheet' />
+    <link href='css/font-awesome.min.css?ver=2.1' rel='stylesheet' media='all' />
+
+    <link href="css/product_gallery.css?ver=1.14" rel="stylesheet" type="text/css" />
+
+    <link href='css/bootstrap.css?ver=1.95' rel='stylesheet' />
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link href="css/vendors.css?ver=1.15" rel="stylesheet">
+    <!-- YOUR CUSTOM CSS -->
+    <!-- GOOGLE WEB FONT -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap" rel="stylesheet">
+    <link href="css/tstyles.css?ver=2.24" rel="stylesheet">
+    <link href="css/style.css?ver=3.63" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/content.css?ver=1.17" />
+    <script>
+        $(document).ready(function () {
+
+            function navSlide() {
+                const burger = document.querySelector(".burger");
+                const nav = document.querySelector(".nav-links");
+                const navLinks = document.querySelectorAll(".nav-links li");
+
+                burger.addEventListener("click", () => {
+                    //Toggle Nav
+                    nav.classList.toggle("nav-active");
+
+                    //Animate Links
+                    navLinks.forEach((link, index) => {
+                        if (link.style.animation) {
+                            link.style.animation = ""
+                        } else {
+                            link.style.animation = `navLinkFade 0.5s ease forwards ${index / 7 + 0.5}s`;
+                        }
+                    });
+                    //Burger Animation
+                    burger.classList.toggle("toggle");
+                });
+
+            }
+
+            navSlide();
+        });
+    </script>
+
+</head>
+
+<body>
+
+    <div class="div-main-container mm-slideout">
+
+        <div class="content_bg" style="background-image: url(media/product.jpg);">
+
+            <div class="bg_overlay">
+                <div class="menustart">
+                    <nav>
+                        <div class="logo">
+                            <a href="index.html"><img src="media/logo.png?ver=1.1"></a>
+                        </div>
+                        <ul class="nav-links">
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="about.html">About</a></li>
+                            <li><a href="products.html">Products</a></li>
+                            <li><a href="services.html">Services</a></li>
+                            <li><a href="gallery.html">Gallery</a></li>
+                            <li><a href="contact.html">Contact Us</a></li>
+                        </ul>
+                        <div class="burger">
+                            <div class="line1"></div>
+                            <div class="line2"></div>
+                            <div class="line3"></div>
+                        </div>
+                        <div class=" social_mob hidden-lg hidden-md">&nbsp;
+                            <div class="social"> <span class="facebook"><a
+                                        href="https://www.facebook.com/alwaysdrynewdelhi" target="_blank"><i
+                                            class="fa fa-facebook"></i></a></span>&nbsp;
+                                <span class="youtube"><a href="https://www.youtube.com/@alwaysdrynewdelhi6493"
+                                        target="_blank"><i class="fa fa-youtube-play"></i></a></span>&nbsp;
+                                <span class="instagram"><a
+                                        href="https://www.instagram.com/alwaysdry.newdelhi/?igshid=YmMyMTA2M2Y%3D"
+                                        target="_blank"><i class="fa fa-instagram"></i></a></span>
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+
+                <h1 class="content_header" data-aos="fade-up" data-aos-duration="1000">PRODUCTS</h1>
+                    <p class="content_header1" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">REASON TO TRUST ON US</p>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+        <div class="clearfix"></div>
+        <div class="container">
+            
+            <div class="col-md-12 text-center ">
+                <h2>PROTECTION LIKE NO OTHER</h2>
+                <p  data-aos="fade-right" data-aos-duration="2000">
+                    Always dry USA is in the business of delivering the best, most efficient and
+                    longest lasting protective coating technology on the market. We offer an entire
+                    line of protective coatings for various surfaces. They have been designed to
+                    deliver maximum durability, stunning visual impact while protecting against
+                    harsh weather elements and day to day use.
+                </p>
+            </div>
+        </div>
+     
+        <div class="imagebg" style="background-image:url(media/product2.jpg);">
+            <div class="col-md-12 colorbg ub-padd">
+                <div class="col-md-4 text-center" data-aos="fade-left" data-aos-duration="2000">
+                    <img src="media/extreme.png?ver=1" />
+                </div>
+                <div class="col-md-8" data-aos="fade-right" data-aos-duration="2000">
+                    <div class="twopara">
+                        <div class="titlefont">
+                            <h2>
+                                9H-LDC EXTREME
+                            </h2>
+                            9H-LDC Extreme is dual composite ceramic glass coating. 9H-LDC is an anti-static, weather
+                            resistant, hydrophobic, ultra-hard coat that shines and protects your vehicle like nothing
+                            else.
+                            <br>
+                            It works on a molecular level to transform the surface; once applied it forms a super strong
+                            chemical bond, cross-linking during the curing process. Once treated, your vehicle will
+                            repel water, contaminants, and it will maintain a highly reflective shine.
+
+                        </div><br>
+                        <div class="titlefont" style="margin-top:0;">
+                            <h2>BENEFITS :</h2>
+                            <ul>
+                                <li>Permanent Chemical Bond</li>
+                                <li>7 Microns thick</li>
+                                <li>12 Microns thick when applied with 9H LDC Pro</li>
+                                <li>Self-healing properties*</li>
+                                <li>Extreme scratch resistance</li>
+                                <li>Extreme beading/Self-cleaning effect</li>
+                                <li>UV and chemical and thermal resistance</li>
+                                <li>Enhances Color Depth &amp; adds highly reflective shine</li>
+                                <li>Limited availability-Strictly professional use only</li>
+                                <li>9H-LDC Pro + 9H-LDC Extreme = Best Protection money can buy!</li>
+                                <li>Ultra Durable- Lifetime warranty *</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class="imagebg" style="background-image: url(media/product4.jpg);">
+            <div class="col-md-12 colorbg2 ub-padd">
+
+                <div class="col-md-8" data-aos="fade-left" data-aos-duration="2000">
+                    <div class="twopara">
+                        <div class="titlefont">
+                            <h2>LDC 9H PRO</h2>LDC 9H Pro is the best 9H nano ceramic coating in the market. When the
+                            LDC 9H nano ceramic coating is applied to your car paint it offers amazing gloss, super
+                            hydrophobic effect and long lasting durability and protection. The ceramic coating is
+                            scratch resistant, chemical resistant and offers a permanent bond to the clear coat.
+                        </div>
+                        <div class="titlefont"><br>
+                            <h2>BENEFITS</h2>
+                            Incredible beading effect: The advanced nano technology provides water repellency ability,
+                            thereby, deterring water from bonding with the coated surface.
+                            <br><br>
+                            Extreme weather resistant: Irrespective of rain, storm or hot weather, the vehicle continues
+                            to retain its original shine due to the protective layer formed by 9H LDC.
+                            <br><br>
+                            Extensive warranty: In comparison to other waxes and polishes, this Liquid Diamond Coating
+                            lasts due to its excellent strength and bond. It offers a lifetime warranty on new vehicles,
+                            five years on a used vehicle.
+                            <br><br>
+                            Amazing: 4~5 Micron thick: No more buffing your vehicle and waxing it every few months. With
+                            9H LDC PRO you never need to wax again. Save money on car detailing, and chemicals.
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 text-center" data-aos="fade-right" data-aos-duration="2000">
+                    <img src="media/pro.png?ver=1.1" />
+                </div>
+            </div>
+        </div>
+
+
+        <div class="imagebg" style="background-image: url(media/product5.jpg);">
+            <div class="col-md-12 colorbg ub-padd">
+                <div class="col-md-4 text-center" data-aos="fade-up" data-aos-duration="2000">
+                    <img src="media/vision.png?ver=1" />
+                </div>
+                <div class="col-md-8" data-aos="fade-up" data-aos-duration="2000">
+                    <div class="twopara">
+                        <div class="titlefont">
+                            <h2>VISION PRO-TECH</h2>
+                            Using AlwaysDry to keep windscreens dry Vision Tech windscreen protection develops a surface
+                            that drains water and is especially effective at higher speeds. The best glass and
+                            windscreen coatings are made by Vision Tech!
+
+                            Always Dry's Vision Tech is a tried-and-true technology for your car. Independent university
+                            studies demonstrate that the Vision Tech lessens the amount of harm that flying debris
+                            causes to a windscreen. This is crucial since a cracked windscreen endangers your car’s
+                            safety in a number of ways. The safety of you and your passengers will be increased, and the
+                            possibility that you will need
+                            to replace or repair your windscreen will be decreased if you have Vision Tech Nano-Coat
+                            applied to stop that damage from happening.
+                        </div>
+
+                        <div class="titlefont"><br>
+                            <h2>BENEFITS</h2>
+                            <ul>
+                                <li>
+                                    Professional Grade
+                                </li>
+                                <li>Permanent chemical bond
+                                </li>
+                                <li>Single coat true 9H hardness</li>
+                                <li>Extreme scratch resistance</li>
+                                <li>Extreme beading/Self cleaning effect</li>
+                                <li>Anti graffiti, anti corrosion effect</li>
+                                <li>UV, chemical &amp; thermal resistance</li>
+                                <li>Improves color depth and adds incredible gloss</li>
+                                <li>Coating Thickness 4-5 microns</li>
+                                <li>Ultra Durable - Lifetime warranty* (On new vehicles only)
+                                </li>
+                            </ul>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="imagebg" style="background-image: url(media/product3.jpg);">
+            <div class="col-md-12 colorbg2 ub-padd">
+
+                <div class="col-md-8" data-aos="fade-right" data-aos-duration="2000">
+                    <div class="twopara">
+                        <div class="titlefont">
+                            <h2>WHEEL PRO-TECH</h2>Ultra-long-lasting Nano Tech coating for permanent wheel protection
+                            The Always Dry Wheel Pro-Tech rim protection uses the same technology as our 9H-LDC PRO to
+                            create a strong chemical bond. by producing a highly hydrophobic, ultra-hard surface. Wheel
+                            Pro-Tech was created specifically to withstand the intense heat generated by braking systems
+                            in cars. For all wheel types, whether normal, painted, chrome, or alloy, it offers the best
+                            protection. Bid adieu to brake dust deterioration and welcome to better wheel rim defence.
+                            above and beyond all other wheel and tyre protection coatings.
+                            <br>
+                            The performance of Wheel Pro Tech is extraordinary due to its exceptional fine surface
+                            technology and
+                            chemical bonding method. Due to the chemical link produced between the wheel surfaces and
+                            the former
+                            property, the coating has great stain (brake dust) and contaminant resistance and is
+                            durable.
+                        </div>
+                        <div class="titlefont"><br>
+                            <h2>BENEFITS</h2>
+                            <ul>
+                                <li>9H-Ultra hard ceramic coat</li>
+
+
+
+                                <li>Permanent chemical bond</li>
+
+
+
+                                <li>Specially formulated to withstand extreme heat</li>
+
+
+
+                                <li>Hydrophobic easy clean surface</li>
+
+
+
+                                <li>Protects from corrosion and brake dust</li>
+
+
+
+                                <li>Easy clean surface reduces maintenance</li>
+
+
+
+                                <li>Protects wheels from pitting and chipping</li>
+
+
+
+                                <li>Safe for chrome, alloys or painted wheels</li>
+
+
+
+                                <li>Will not add shine to wheels with matte finishes</li>
+
+
+
+                                <li>Ultra durable, Lasts for up to 5 years</li>
+                            </ul>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-md-4 text-center" data-aos="fade-left" data-aos-duration="2000">
+                    <img src="media/wheel.png" />
+                </div>
+            </div>
+        </div>
+
+        <div class="imagebg" style="background-image: url(media/product7.jpg);">
+            <div class="col-md-12 colorbg ub-padd">
+                <div class="col-md-4 text-center" data-aos="fade-left" data-aos-duration="2000">
+                    <img src="media/lether.png" />
+                </div>
+                <div class="col-md-8" data-aos="fade-right" data-aos-duration="2000">
+                    <div class="twopara">
+                        <div class="titlefont">
+                            <h2>
+                                LEATHER PRO-TECH
+                            </h2>Leather Pro-Tech (Leather Protection) by Always Dry protects all leather from
+                            water and oil-based stains. It is breathable and extremely durable thanks to unique Always
+                            Dry’s Ultra Durable NanoTech Coating.
+                            <br>
+                            Leather Pro-Tech makes ordinary leather products waterproof and easy to clean. Use it to
+                            prevent soaking, swelling or rotting on any leather. This product can be used on any
+                            leather. There are literally thousands of uses!!
+                            <br>
+                            Being alcohol based ensures a much deeper penetration of the active ingredient giving
+                            Leather Pro-Tech much better durability and overall performance. Typically a treated surface
+                            will last five times longer than conventional water-repellent coatings, with the lifespan of
+                            the product on soft tops for as long as three years.
+                            <br>
+                            Users are not limited to just a car interior. It can be used on motorbike seats, boat seats
+                            and even leather shoes. Protect all your leather products thanks to Always Dry. Order a
+                            bottle today or have us apply it for you.
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+       
+        <div class="clearfix"></div>
+
+        <footer>
+
+            <div class="container container-custom margin_80_55">
+                <div class="row">
+                    <div class="col-lg-4 col-md-12 p-r-5 center">
+
+                        <p style="text-align:center" data-aos="fade-up-right" data-aos-duration="2000"><img
+                                src="media/Shieldlogo.webp" width="22%" alt=""><br />
+                            <br /><img class="flogo" src="media/logo.png?ver=1.1" width="65%" alt="">
+                        </p>
+
+
+                    </div>
+                    <div class="col-lg-4 col-md-12" data-aos="fade-up" data-aos-duration="2000">
+                        <h4>GET IN TOUCH</h4>
+
+                        <p><i class="fa fa-map-marker"></i>&nbsp; <span
+                                style="display:inline-block;    vertical-align: top;"> B7 Ground Floor, Mansarover
+                                Garden<br />
+                                New Delhi-110 015, India</span><br /><br />
+                            <i class="fa fa-phone"></i>&nbsp; +91 11 4141 5041,+91 999 941 5021
+                            <br /><br />
+                            <i class="fa fa-envelope"></i>&nbsp; alwaysdrynewdelhi@gmail.com
+
+                        </p>
+                        <div class="social">&nbsp;
+                            <span class="facebook"><a href="https://www.facebook.com/alwaysdrynewdelhi"
+                                    target="_blank"><i class="fa fa-facebook"></i></a></span>&nbsp;
+                            <span class="youtube"><a href="https://www.youtube.com/@alwaysdrynewdelhi6493"
+                                    target="_blank"><i class="fa fa-youtube-play"></i></a></span>&nbsp;
+                            <span class="instagram"><a
+                                    href="https://www.instagram.com/alwaysdry.newdelhi/?igshid=YmMyMTA2M2Y%3D"
+                                    target="_blank"><i class="fa fa-instagram"></i></a></span>
+                        </div>
+
+
+                    </div>
+                    <div class="col-lg-4 col-md-12" data-aos="fade-up-left" data-aos-duration="2000">
+
+                        <div>
+                            <div class="quick_links text-center">
+                                <h4>QUICK LINKS</h4>
+                                <ul>
+
+                                    <li><a href="index.html">Home</a></li>
+                                    <li><a href="about.html">About</a></li>
+                                    <li><a href="products.html">Products</a></li>
+                                    <li><a href="services.html">Services</a></li>
+                                    <li><a href="gallery.html">Gallery</a></li>
+                                    <li><a href="contact.html">Contact US</a></li>
+                                </ul>
+                            </div>
+
+
+                        </div>
+
+                    </div>
+
+
+                </div>
+
+            </div>
+
+        </footer>
+        <div class="text-center design">Designed By: <a href=""
+            target="_blank">Ritu</a></div>
+    </div>
+
+
+
+
+    <div class="clearfix"></div>
+
+
+
+
+
+
+
+
+
+
+    <script type="text/javascript"
+        language="javascript">try { Sys.WebForms.PageRequestManager.getInstance().add_endRequest(EndRequestHandler); }
+            catch (e) { }
+            try { Sys.WebForms.PageRequestManager.getInstance().add_beginRequest(BeginRequestHandler); }
+            catch (e) { }
+            function EndRequestHandler() { CheckModalForm(); }
+            function BeginRequestHandler() { showPleaseWait(); }
+            function CheckModalForm() { if (document.getElementById('divLoading')) { $('.divLoading').remove(); $('.modalCanvas').remove(); } }
+            window.onscroll = SetMasterDivPosition; function SetMasterDivPosition() { $("#AScrollPosition").text("Top : " + $(document).scrollTop()); if (document.getElementById("HMasterUpdatePanel")) { document.getElementById("HMasterUpdatePanel").value = $(document).scrollTop(); } }
+
+            //Music code starts
+            var divBackHtml = "";
+            var divAudioImg = document.getElementById("divaudioButton");
+            var divBackMusic = document.getElementById("divBackgroundMusic");
+            if (divBackMusic) {
+                divBackHtml = divBackMusic.innerHTML;
+                if (divAudioImg && divBackHtml.trim() != "") {
+                    divAudioImg.style.display = "block";
+                }
+                else {
+                    if (divAudioImg) {
+                        divAudioImg.style.display = "none";
+                    }
+                }
+            }
+            else {
+                if (divAudioImg) {
+                    divAudioImg.style.display = "none";
+                }
+            }
+
+            function onsoundChange(img) {
+                var divBack = document.getElementById("divBackgroundMusic");
+                if ($("#Imgaudio").attr("src") == "images/icon_mute.png") {
+                    $("#Imgaudio").attr("src", "images/icon_audio.png")
+                    img.title = "click to mute"
+                    divBack.innerHTML = divBackHtml;
+                    var song = document.getElementById('music_audio');
+                    var played = false;
+                    var tillPlayed = getCookie('timePlayed');
+                    function update() {
+                        if (!played) {
+                            if (tillPlayed) {
+                                song.currentTime = tillPlayed;
+                                song.play();
+                                played = true;
+                            }
+                            else {
+                                song.play();
+                                played = true;
+                            }
+                        }
+                        else {
+                            setCookie('timePlayed', song.currentTime);
+                        }
+                    }
+                    setInterval(update, 100);
+                }
+                else {
+                    $("#Imgaudio").attr("src", "images/icon_mute.png")
+                    img.title = "click to play";
+                    divBack.innerHTML = "";
+                }
+            }
+            function setCookie(c_name, value, exdays) {
+                var exdate = new Date();
+                exdate.setDate(exdate.getDate() + exdays);
+                var c_value = escape(value) + ((exdays == null) ? "" : "; expires=" + exdate.toUTCString());
+                document.cookie = c_name + "=" + c_value;
+            }
+
+            function getCookie(c_name) {
+                var i, x, y, ARRcookies = document.cookie.split(";");
+                for (i = 0; i < ARRcookies.length; i++) {
+                    x = ARRcookies[i].substr(0, ARRcookies[i].indexOf("="));
+                    y = ARRcookies[i].substr(ARRcookies[i].indexOf("=") + 1);
+                    x = x.replace(/^\s+|\s+$/g, "");
+                    if (x == c_name) {
+                        return unescape(y);
+                    }
+                }
+            }
+
+            //Music code end
+
+            function GetMainMenuBGColor(MainMenuNo, SubMenuNo) { document.cookie = "DbMainMenuNo=" + MainMenuNo; document.cookie = "DbSubMenuNo=" + SubMenuNo; }
+            function setMainMenuActive() {
+                var HMenuColor = document.getElementById("HMenuColor").value;
+                var HThemeColor = document.getElementById("HThemeColor").value;
+                if (readCookie('DbMainMenuNo') != '') {
+                    var Number = readCookie('DbMainMenuNo');
+                    if (Number == null) {
+                        $('.StickyMenuCss .navbar-default .navbar-nav > li.mainMenu-' + Number + ' > a').addClass("active");
+                    }
+                    else {
+                        $('.StickyMenuCss .navbar-default .navbar-nav > li > a.active').removeClass("active");
+                        $('.StickyMenuCss .navbar-default .navbar-nav > li.mainMenu-' + Number + ' > a').addClass("active");
+                    }
+                }
+            }
+
+
+            function setCurrentMenuActive() {
+                var HMenuColor = document.getElementById("HMenuColor").value;
+                var HThemeColor = document.getElementById("HThemeColor").value;
+                if (readCookie('DbMainMenuNo') != '') {
+                    var Number = readCookie('DbMainMenuNo');
+                    if (Number == null) {
+                        $('#menu-main-menu > li.mainMenu-' + Number).addClass("current-menu-item");
+                    }
+                    else {
+                        $('#menu-main-menu > li').removeClass("current-menu-item");
+                        $('#menu-main-menu > li.mainMenu-' + Number).addClass("current-menu-item");
+                    }
+                }
+            }
+
+            function setMenuFontColor() {
+                var HMenuColor = document.getElementById("HMenuColor").value; var HMenuHoverColor = document.getElementById("HMenuHoverColor").value; var HMenuListColor = document.getElementById("HMenuListColor").value; var HMenuListFontColor = document.getElementById("HMenuListFontColor").value; var HThemeColor = document.getElementById("HThemeColor").value; var HMenuID = document.getElementById("HMenuID").value; if (readCookie('DbMainMenuNo') != '') {
+                    var Number = readCookie('DbMainMenuNo'); if (HMenuID == "0") { $('#MenuStyle9 li.db-mainMenuStyle9-menu-no-' + Number).css({ 'background': 'none', 'color': HMenuListFontColor }); $('#MenuStyle11 li.db-mainMenuStyle11-menu-no-' + Number).css({ 'background': 'none', 'color': HMenuListFontColor }); $('#MenuStyle12 li.db-mainMenuStyle12-menu-no-' + Number).css({ 'background': 'none', 'color': HMenuListFontColor }); $('#MenuStyle12 li.db-mainMenuStyle12-menu-no-' + Number + ' a ').css({ 'color': HMenuListColor }); }
+                    else { $('#MenuStyle9 li.db-mainMenuStyle9-menu-no-' + Number).css({ 'background': HThemeColor, 'color': HMenuListFontColor }); $('#MenuStyle11 li.db-mainMenuStyle11-menu-no-' + Number).css({ 'background': HThemeColor, 'color': HMenuListFontColor }); $('#MenuStyle12 li.db-mainMenuStyle12-menu-no-' + Number).css({ 'background': HMenuListColor, 'color': HMenuListFontColor }); $('#MenuStyle12 li.db-mainMenuStyle12-menu-no-' + Number + ' > a ').css({ 'color': HMenuListFontColor }); }
+                    $('#MenuStyle13 li.db-mainMenuStyle13-menu-no-' + Number).css({ 'background': 'none' }); $('#MenuStyle13 li.db-mainMenuStyle13-menu-no-' + Number + ' > a ').css({ 'color': HMenuHoverColor });
+                }
+                if (readCookie('DbSubMenuNo') != '') { var SubMenuNumber = readCookie('DbSubMenuNo'); $('#MenuStyle9 li.db-sub#MenuStyle9-menu-no-' + SubMenuNumber).css({ 'background': HThemeColor, 'color': HMenuHoverColor }); $('#MenuStyle11 li.db-subMenuStyle11-menu-no-' + SubMenuNumber).css({ 'background': HThemeColor, 'color': HMenuHoverColor }); $('#MenuStyle12 li.db-subMenuStyle12-menu-no-' + SubMenuNumber).css({ 'background': 'none', 'color': HMenuHoverColor }); $('#MenuStyle13 li.db-subMenuStyle13-menu-no-' + SubMenuNumber).css({ 'background': 'none' }); $('#MenuStyle13 li.db-subMenuStyle13-menu-no-' + SubMenuNumber + ' > a').css({ 'color': HMenuHoverColor }); }
+            }
+            function setDoubleMenuBGColor() {
+                var HMenuColor = document.getElementById("HMenuColor").value; var HThemeColor = document.getElementById("HThemeColor").value; var HMenuID = document.getElementById("HMenuID").value; if (readCookie('DbMainMenuNo') != '') {
+                    var Number = readCookie('DbMainMenuNo'); if (HMenuID == "0") { $('li.db-main-menu-no-' + Number).css({ 'background': 'none', 'color': 'white' }); }
+                    else { $('li.db-main-menu-no-' + Number).css({ 'background': HThemeColor, 'color': 'white' }); }
+                }
+                if (readCookie('DbSubMenuNo') != '') { var SubMenuNumber = readCookie('DbSubMenuNo'); $('li.db-sub-menu-no-' + SubMenuNumber).css({ 'background': HThemeColor, 'color': 'white' }); }
+                if (readCookie('DbSubSubMenuNo') != '') { var SubSubMenuNumber = readCookie('DbSubSubMenuNo'); $('li.db-sub-sub-menu-no-' + SubSubMenuNumber).css({ 'background': HMenuColor, 'color': 'white' }); }
+            }
+            function GetDoubleMenuBGColor(MainMenuNo, SubMenuNo, SubSubMenuNo) { document.cookie = "DbMainMenuNo=" + MainMenuNo; document.cookie = "DbSubMenuNo=" + SubMenuNo; document.cookie = "DbSubSubMenuNo=" + SubSubMenuNo; }
+            function setsfMenuBGColor() {
+                var arrColor = ["#80c3d2", "#ff8454", "#f0cd3a", "#88c87b", "#80c3d2", "#ff8454", "#f0cd3a", "#88c87b", "#80c3d2", "#ff8454"]; var HMenuHoverColor = document.getElementById("HMenuHoverColor").value; var HMenuFontColor = document.getElementById("HMenuFontColor").value; if (readCookie('sfMainMenuNo') != '') { var Number = readCookie('sfMainMenuNo'); if (Number == undefined || Number == null) Number = 1; $('a.sf-main-menu-no-' + Number).css({ 'background': HMenuHoverColor }); $('a.sf-main-menu-no-' + Number).attr('style', 'background:' + HMenuHoverColor + '!important;' + 'color:' + HMenuFontColor + ' !important;'); $('#sp-main-menu ul.level-0 > li.menu-' + Number + ' >a').css({ 'background': arrColor[Number - 1], 'color': HMenuFontColor }); $('ul.menu_main_nav > li.menu-' + Number + ' >a').css({ 'background': arrColor[Number - 1], 'color': 'white' }); }
+                if (readCookie('sfSubMenuNo') != '') { var SubMenuNumber = readCookie('sfSubMenuNo'); $('a.sf-sub-menu-no-' + SubMenuNumber).attr('style', 'color:' + HMenuHoverColor + '!important;' + 'border-bottom:1px solid' + HMenuHoverColor); }
+                if (readCookie('sfSubSubMenuNo') != '') { var SubSubMenuNumber = readCookie('sfSubSubMenuNo'); $('a.sf-sub-sub-menu-no-' + SubSubMenuNumber).attr('style', 'color:' + HMenuHoverColor + '!important;' + 'border-bottom:1px solid' + HMenuHoverColor); }
+                else { $('a.sf-main-menu-no-1').css({ 'background': HMenuHoverColor, 'color': HMenuFontColor }); }
+            }
+            function GetsfMenuBGColor(MainMenuNo, SubMenuNo, SubSubMenuNo) { document.cookie = "sfMainMenuNo=" + MainMenuNo; document.cookie = "sfSubMenuNo=" + SubMenuNo; document.cookie = "sfSubSubMenuNo=" + SubSubMenuNo; }
+            function readCookie(name) {
+                var nameEQ = name + "="; var ca = document.cookie.split(';'); for (var i = 0; i < ca.length; i++) { var c = ca[i]; while (c.charAt(0) == ' ') c = c.substring(1, c.length); if (c.indexOf(nameEQ) == 0) return c.substring(nameEQ.length, c.length); }
+                return null;
+            }
+            function checkBrowser() {
+                var divBackgroundMusic = document.getElementById("divBackgroundMusic"); var divAudioImg1 = document.getElementById("divaudioButton");
+                f = navigator.userAgent.search("Firefox");
+                if (divAudioImg1 && divBackgroundMusic && f > -1) { divAudioImg1.style.display = "none"; divBackgroundMusic.style.display = "none"; }
+                if (IsIE8() == true && document.getElementById("HMenuStyleID").value == 5) { $('head').append('<style type="text/css">.header_container{height:auto !important; min-height:90px !important; position: static !important;}</style>'); }
+                if (IsIE8() == true && document.getElementById("HMenuStyleID").value == 9) { $('head').append('<style type="text/css">.nav > li {display: inline-block !important;} </style>'); }
+            }
+            function SetDotClick() { var ol = document.getElementById('SlideShowcarousel'); var ListItem = ol.getElementsByTagName('li'); var newList = ""; for (var i = 0; i < ListItem.length; i++) { $("#" + ListItem[i].id).click(); $("#SlideShowBelowIndicators li.active").removeClass('active'); $("#" + ListItem[i].id).addClass('active'); } }</script>
+    <script type="text/javascript">$(document).ready(function () {
+            try {
+                $(document).ready(function () { $(".tab-Container ul.tabs li").click(function () { var divID = $(this).closest('div').attr('id'); $("#" + divID + " ul.tabs li").removeClass("active"); $(this).addClass("active"); $("#" + divID + "  .tab_content").hide(); var activeTab = $(this).attr("rel"); $("#" + divID + " ." + activeTab).fadeIn(); }); }); CheckBlankText(); CheckBlankFooterText(); setsfMenuBGColor(); setDoubleMenuBGColor(); setMainMenuActive(); setCurrentMenuActive(); setMenuFontColor(); checkBrowser(); CheckBlankManuText(); if (document.getElementById("HDisableRClick").value == "1") { $(document).bind("contextmenu", function (e) { e.preventDefault(); }); }
+                if (document.getElementById("HAutoScroll").value == "False") { var bool = false; }
+                else { var bool = true; }
+                $('#carouselh').jsCarousel({ onthumbnailclick: function (src) { alert(src); }, autoscroll: bool, circular: true, masked: false, itemstodisplay: 4, orientation: 'h' });
+            }
+            catch (e) { }
+        });</script>
+    <script type="text/javascript">function mainNav() { var li = jQuery("#menu li"); li.bind({ mouseenter: function () { var element = jQuery(this); element.addClass("over"); element.find("ul").fadeIn("50"); }, mouseleave: function () { var element = jQuery(this); element.removeClass("over"); element.find("ul").hide(); } }); }
+        function openLink(url) { window.open(url, '_blank', '', true) }</script>
+    <script type="text/javascript">$('input:not(#inputTxtSearch),select').keypress(function (e) {
+            if ($(this).prop('type') != 'submit') {
+                if (e.which == 13) {
+                    var curIndex = $(this).attr("tabindex"); var nextIndex = parseInt(curIndex) + 1; while ($("[TabIndex='" + nextIndex + "']").length == 0 || $("[TabIndex='" + nextIndex + "']:not([disabled])").length == 0) { nextIndex++; }
+                    $('[tabindex=' + nextIndex + ']').focus(); setTimeout(function () { $('[tabindex=' + nextIndex + ']').select(); }, 0); e.preventDefault();
+                }
+            }
+        }); $('#inputTxtSearch').keypress(function (e) {
+            if (e.which == 13) {
+                var txtSearch = document.getElementById("inputTxtSearch"); var requestURL = ""; var query = window.location.href; var parms = query.split('/'); for (var i = 0; i < parms.length - 1; i++) { requestURL = requestURL + parms[i] + "/"; }
+                requestURL = requestURL + "search?search=" + txtSearch.value;
+                if (txtSearch.value == "Search here" || txtSearch.value == "") { alert("Enter text to search !"); txtSearch.focus(); return false; }
+                var SecretKey = document.getElementById("HSecretKey").value;
+                $.post("admin/tool_get_ajax_data", { FormID: "EncryptLink", url: requestURL, key: SecretKey }, function (result) {
+                    window.location.href = result;
+                });
+                return false;
+            }
+        })</script>
+    <script type="text/javascript">function LoginSearchBar(type) {
+            if (type == 0) { $(".search-form").show(); }
+            else { $(".search-form").hide(); }
+        }
+        $('.divTxtSearch').mouseover(function (e) { $(".search-form").show(); })
+        function onSearchTextClick() {
+            var txtSearch = document.getElementById("inputTxtSearch"); var requestURL = ""; var query = window.location.href; var parms = query.split('/'); for (var i = 0; i < parms.length - 1; i++) { requestURL = requestURL + parms[i] + "/"; }
+            requestURL = requestURL + "search?search=" + txtSearch.value;
+            if (txtSearch.value == "Search here") { alert("Enter text to search !"); txtSearch.focus(); return false; }
+            var SecretKey = document.getElementById("HSecretKey").value;
+            $.post("admin/tool_get_ajax_data", { FormID: "EncryptLink", url: requestURL, key: SecretKey }, function (result) {
+                window.location.href = result;
+            });
+            return false;
+        }
+        function onSearchFooterTextClick() {
+            var txtSearch = document.getElementById("FooterinputTxtSearch"); var requestURL = ""; var query = window.location.href; var parms = query.split('/'); for (var i = 0; i < parms.length - 1; i++) { requestURL = requestURL + parms[i] + "/"; }
+            requestURL = requestURL + "search?search=" + txtSearch.value;
+            if (txtSearch.value == "Search here") { alert("Enter text to search !"); txtSearch.focus(); return false; }
+            var SecretKey = document.getElementById("HSecretKey").value;
+            $.post("admin/tool_get_ajax_data", { FormID: "EncryptLink", url: requestURL, key: SecretKey }, function (result) {
+                window.location.href = result;
+            });
+            return false;
+        }
+        function SearchBoxText(txt) {
+            if (txt) {
+                if (txt.value != "Search here" && txt.value != "") { return true; }
+                else { txt.value = "Search here"; }
+            }
+        }
+        function SearchTextHide(txt) {
+            if (txt) {
+                if (txt.value != "Search here") { return true; }
+                else { txt.style.font = "normal 12px Arial"; txt.style.color = "black"; txt.value = ""; }
+            }
+        }
+        function CheckBlankText() { var txt = document.getElementById("inputTxtSearch"); if (txt) { if (txt.value == "") { txt.style.font = "italic 12px Arial"; txt.style.color = "gray"; txt.value = "Search here" } } }
+        function CheckBlankFooterText() { var txt = document.getElementById("FooterinputTxtSearch"); if (txt) { if (txt.value == "") { txt.style.font = "italic 12px Arial"; txt.style.color = "gray"; txt.value = "Search here" } } }
+        var start_0 = 1; var start_1 = 1; var End_0 = 5; var End_1 = 5; function ShowHideAnnoucement(LatestUpdate, Type, TotalRecord) {
+            var start = 0; var End = 0; if (LatestUpdate == 0) { start = start_0; End = End_0; }
+            if (LatestUpdate == 1) { start = start_1; End = End_1; }
+            if (Type == 0) { if (start != 1) { --start; --End; var HideElem = document.getElementById("NewsStyle2_" + LatestUpdate + "_" + start); var ShowElem = document.getElementById("NewsStyle2_" + LatestUpdate + "_" + End); HideElem.style.display = 'block'; ShowElem.style.display = 'none'; } }
+            else { if (End != TotalRecord) { var HideElem = document.getElementById("NewsStyle2_" + LatestUpdate + "_" + start); var ShowElem = document.getElementById("NewsStyle2_" + LatestUpdate + "_" + End); HideElem.style.display = 'none'; ShowElem.style.display = 'block'; start++; End++; } }
+            var Left_slide = document.getElementById("img_left_slide_" + LatestUpdate); if (start == 1) { Left_slide.className = 'button-previous'; }
+            else { Left_slide.className = 'button-next'; }
+            var Right_slide = document.getElementById("img_right_slide_" + LatestUpdate); if (End == TotalRecord) { Right_slide.className = 'button-previous'; }
+            else { Right_slide.className = 'button-next'; }
+            if (LatestUpdate == 0) { start_0 = start; End_0 = End; }
+            if (LatestUpdate == 1) { start_1 = start; End_1 = End; }
+        }</script>
+    <script type="text/JavaScript">$(document).ready(function () {
+            $('#button a').click(function () {
+                var integer = $(this).attr('rel'); $('#myslide .cover').animate({ left: -160 * (parseInt(integer) - 1) })
+                $('#button a').each(function () { $(this).removeClass('active'); if ($(this).hasClass('button' + integer)) { $(this).addClass('active') } });
+            });
+        }); function onSearchMenuTextClick() {
+            var txtSearch = document.getElementById("MenuinputTxtSearch"); var requestURL = ""; var query = window.location.href; var parms = query.split('/'); for (var i = 0; i < parms.length - 1; i++) { requestURL = requestURL + parms[i] + "/"; }
+            requestURL = requestURL + "search?search=" + txtSearch.value;
+            if (txtSearch.value == "Search here") { txtSearch.focus(); return false; }
+            var SecretKey = document.getElementById("HSecretKey").value;
+            $.post("admin/tool_get_ajax_data", { FormID: "EncryptLink", url: requestURL, key: SecretKey }, function (result) {
+                window.location.href = result;
+            });
+            return false;
+        }
+        function CheckBlankManuText() { var txt = document.getElementById("MenuinputTxtSearch"); if (txt) { if (txt.value == "") { txt.style.font = "italic 12px Arial"; txt.style.color = "gray"; txt.value = "Search here" } } }
+        $(document).ready(function () { $(".sb-icon-search").click(function () { if (!$(".sb-search").hasClass("sb-search-open")) { $(".sb-search").addClass("sb-search-open"); } }); $(".sb-search-submit").click(function () { if ($(".sb-search").hasClass("sb-search-open")) { event.preventDefault(); $(".sb-search").removeClass("sb-search-open"); } }); }); function onSearchClick() {
+            var txtSearch = document.getElementById("txtinputSearch"); var requestURL = ""; var query = window.location.href; var parms = query.split('/'); for (var i = 0; i < parms.length - 1; i++) { requestURL = requestURL + parms[i] + "/"; }
+            requestURL = requestURL + "search?search=" + txtSearch.value;
+            if (txtSearch.value == "Search here") { alert("Enter text to search !"); txtSearch.focus(); return false; }
+            var SecretKey = document.getElementById("HSecretKey").value;
+            $.post("admin/tool_get_ajax_data", { FormID: "EncryptLink", url: requestURL, key: SecretKey }, function (result) {
+                window.location.href = result;
+            });
+            return false;
+        }</script>
+
+
+
+    <!--animation script-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+
+
+
+    <!-- COMMON SCRIPTS -->
+    <script src="js/common_scripts.js?ver=1.1"></script>
+    <script src="js/main.js?ver=3.0"></script>
+
+
+
+    <script>
+        let items = document.querySelectorAll(".c1 .c1i");
+
+        items.forEach((el) => {
+            const minPerSlide = 6;
+            let next = el.nextElementSibling;
+            for (var i = 1; i < minPerSlide; i++) {
+                if (!next) {
+                    // wrap carousel by using first child
+                    next = items[0];
+                }
+                let cloneChild = next.cloneNode(true);
+                el.appendChild(cloneChild.children[0]);
+                next = next.nextElementSibling;
+            }
+        });
+    </script>
+    <script src='js/main4d.js?ver=2.12'></script>
+
+
+
+</body>
+
+</html>

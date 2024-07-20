@@ -1,0 +1,255 @@
+
+
+<!DOCTYPE html>
+<html xmlns="https://www.w3.org/1999/xhtml" lang="en">
+
+<head id="Head1">
+    <title>
+        Always Dry
+    </title>
+    <meta id="MetaViewport" name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <meta name="description" content="Always Dry" />
+    <!--<link href="css/tbootstrap.css?ver=1.12" rel="stylesheet">-->
+    <link href='https://fonts.googleapis.com/icon?family=Material+Icons' rel='stylesheet' />
+
+    <script src='js/jquery-1.11.3.min.js?ver=1.6' type='text/javascript'></script>
+    <link href='https://cdn.jsdelivr.net/npm/font-awesome@4.7.0/css/font-awesome.css' rel='stylesheet' />
+    <link href='css/font-awesome.min.css?ver=2.1' rel='stylesheet' media='all' />
+
+    <link href="css/product_gallery.css?ver=1.14" rel="stylesheet" type="text/css" />
+
+    <link href='css/bootstrap.css?ver=1.95' rel='stylesheet' />
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link href="css/vendors.css?ver=1.15" rel="stylesheet">
+    <!-- YOUR CUSTOM CSS -->
+    <!-- GOOGLE WEB FONT -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap" rel="stylesheet">
+    <link href="css/tstyles.css?ver=2.24" rel="stylesheet">
+    <link href="css/style.css?ver=3.63" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/content.css?ver=1.17" />
+    <script>
+        $(document).ready(function () {
+
+            function navSlide() {
+                const burger = document.querySelector(".burger");
+                const nav = document.querySelector(".nav-links");
+                const navLinks = document.querySelectorAll(".nav-links li");
+
+                burger.addEventListener("click", () => {
+                    //Toggle Nav
+                    nav.classList.toggle("nav-active");
+
+                    //Animate Links
+                    navLinks.forEach((link, index) => {
+                        if (link.style.animation) {
+                            link.style.animation = ""
+                        } else {
+                            link.style.animation = `navLinkFade 0.5s ease forwards ${index / 7 + 0.5}s`;
+                        }
+                    });
+                    //Burger Animation
+                    burger.classList.toggle("toggle");
+                });
+
+            }
+
+            navSlide();
+        });
+    </script>
+
+</head>
+
+<body>
+
+    <div class="div-main-container mm-slideout">
+
+        <div class="content_bg" style="background-image: url(media/contactus.jpg);">
+
+            <div class="bg_overlay">
+                <div class="menustart">
+                    <nav>
+                        <div class="logo">
+                            <a href="index.html"><img src="media/logo.png?ver=1.1"></a>
+                        </div>
+                        <ul class="nav-links">
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="about.html">About</a></li>
+                            <li><a href="products.html">Products</a></li>
+                            <li><a href="services.html">Services</a></li>
+                            <li><a href="gallery.html">Gallery</a></li>
+                            <li><a href="contact.html">Contact Us</a></li>
+                        </ul>
+
+                        <div class="burger">
+                            <div class="line1"></div>
+                            <div class="line2"></div>
+                            <div class="line3"></div>
+                        </div>
+                        <div class=" social_mob hidden-lg hidden-md">&nbsp;
+                            <div class="social"> <span class="facebook"><a
+                                        href="https://www.facebook.com/alwaysdrynewdelhi" target="_blank"><i
+                                            class="fa fa-facebook"></i></a></span>&nbsp;
+                                <span class="youtube"><a href="https://www.youtube.com/@alwaysdrynewdelhi6493"
+                                        target="_blank"><i class="fa fa-youtube-play"></i></a></span>&nbsp;
+                                <span class="instagram"><a
+                                        href="https://www.instagram.com/alwaysdry.newdelhi/?igshid=YmMyMTA2M2Y%3D"
+                                        target="_blank"><i class="fa fa-instagram"></i></a></span>
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+
+                <h1 class="content_header" data-aos="fade-up" data-aos-duration="1000">CONTACT US</h1>
+                <p class="content_header1" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">LETS HAVE A TALK</p>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+        <div class="clearfix"></div>
+        <div class="custom-school1 wrap1">
+
+            <div class="col-md-12 contentstart">
+                <div class="col-md-4">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7003.124708009706!2d77.13464600000002!3d28.642876!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d03bade734cb3%3A0x63a1d5ddb2ab51db!2sAlwaysDry%20USA%20New%20Delhi!5e0!3m2!1sen!2sin!4v1698674438674!5m2!1sen!2sin"
+                        width="100%" height="480" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+
+                <div class="col-md-4">
+
+                    <h4>MEET US</h4>
+
+                    <p><i class="fa fa-map-marker"></i>&nbsp; <span
+                            style="display:inline-block;    vertical-align: top;"> B7 Ground Floor, Mansarover
+                            Garden<br />
+                            New Delhi-110 015, India</span><br /><br />
+                        <i class="fa fa-phone"></i>&nbsp; +91 11 4141 5041,+91 999 941 5021
+                        <br /><br />
+                        <i class="fa fa-envelope"></i>&nbsp; alwaysdrynewdelhi@gmail.com
+
+                    </p>
+
+
+
+
+                </div>
+                <div class="col-md-4 formsec">
+                    <h4>WANT TO TALK? LEAVE US A MESSAGE.</h4>
+                    <form action="sendmail.php">
+                        <label for="fname">Name</label><br>
+                        <input type="text" id="fname" name="fname" value="" required><br> <br>
+                        <label for="phone">Phone</label><br>
+                        <input type="text" pattern="[789][0-9]{9}" id="phone" name="lname" value="" required>
+                        <br> <br>
+                        <label for="email">Email</label><br>
+                        <input type="email" id="email" name="mail" value="" required>
+                        <br> <br>
+                        <label for="message" >Message</label><br>
+                        <input type="text" id="message" name="text" value="" required>
+                        <br><br>
+                        <input class="btnsubmit" type="submit" value="Submit">
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <div class="clearfix"></div>
+
+        <footer>
+
+            <div class="container container-custom margin_80_55">
+                <div class="row">
+                    <div class="col-lg-4 col-md-12 p-r-5 center">
+
+                        <p style="text-align:center" data-aos="fade-up-right" data-aos-duration="2000">
+                            <img src="media/Shieldlogo.webp" width="22%" alt=""><br />
+                            <br /><img class="flogo" src="media/logo.png?ver=1.1" width="65%" alt="">
+                        </p>
+
+
+                    </div>
+                    <div class="col-lg-4 col-md-12" data-aos="fade-up" data-aos-duration="2000">
+                        <h4>GET IN TOUCH</h4>
+
+                        <p><i class="fa fa-map-marker"></i>&nbsp; <span
+                                style="display:inline-block;    vertical-align: top;"> B7 Ground Floor, Mansarover
+                                Garden<br />
+                                New Delhi-110 015, India</span><br /><br />
+                            <i class="fa fa-phone"></i>&nbsp; +91 11 4141 5041,+91 999 941 5021
+                            <br /><br />
+                            <i class="fa fa-envelope"></i>&nbsp; alwaysdrynewdelhi@gmail.com
+
+                        </p>
+                        <div class="social">&nbsp;
+                            <span class="facebook"><a href="https://www.facebook.com/alwaysdrynewdelhi"
+                                    target="_blank"><i class="fa fa-facebook"></i></a></span>&nbsp;
+                            <span class="youtube"><a href="https://www.youtube.com/@alwaysdrynewdelhi6493"
+                                    target="_blank"><i class="fa fa-youtube-play"></i></a></span>&nbsp;
+                            <span class="instagram"><a
+                                    href="https://www.instagram.com/alwaysdry.newdelhi/?igshid=YmMyMTA2M2Y%3D"
+                                    target="_blank"><i class="fa fa-instagram"></i></a></span>
+                        </div>
+
+
+                    </div>
+                    <div class="col-lg-4 col-md-12" data-aos="fade-up-left" data-aos-duration="2000">
+
+                        <div>
+                            <div class="quick_links text-center">
+                                <h4>QUICK LINKS</h4>
+                                <ul>
+
+                                    <li><a href="index.html">Home</a></li>
+                                    <li><a href="about.html">About</a></li>
+                                    <li><a href="products.html">Products</a></li>
+                                    <li><a href="services.html">Services</a></li>
+                                    <li><a href="gallery.html">Gallery</a></li>
+                                    <li><a href="contact.html">Contact US</a></li>
+                                </ul>
+                            </div>
+
+
+                        </div>
+
+                    </div>
+
+
+                </div>
+
+            </div>
+
+        </footer>
+        <div class="text-center design">Designed By: <a href=""
+            target="_blank">Ritu</a></div>
+    </div>
+
+
+    <div class="clearfix"></div>
+    <!--animation script-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+
+
+
+    <!-- COMMON SCRIPTS -->
+    <script src="js/common_scripts.js?ver=1.1"></script>
+    <script src="js/main.js?ver=3.0"></script>
+
+
+
+
+
+
+
+</body>
+
+</html>

@@ -1,0 +1,775 @@
+<!DOCTYPE html>
+<html xmlns="https://www.w3.org/1999/xhtml" lang="en">
+
+<head id="Head1">
+    <title>
+        Always Dry
+    </title>
+    <meta id="MetaViewport" name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <meta name="description" content="Always Dry" />
+    <!--<link href="css/tbootstrap.css?ver=1.12" rel="stylesheet">-->
+    <link href='https://fonts.googleapis.com/icon?family=Material+Icons' rel='stylesheet' />
+
+    <script src='js/jquery-1.11.3.min.js?ver=1.6' type='text/javascript'></script>
+    <link href='https://cdn.jsdelivr.net/npm/font-awesome@4.7.0/css/font-awesome.css' rel='stylesheet' />
+    <link href='css/font-awesome.min.css?ver=2.1' rel='stylesheet' media='all' />
+
+    <link href="css/product_gallery.css?ver=1.14" rel="stylesheet" type="text/css" />
+
+    <link href='css/bootstrap.css?ver=1.95' rel='stylesheet' />
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link href="css/vendors.css?ver=1.15" rel="stylesheet">
+    <!-- YOUR CUSTOM CSS -->
+    <!-- GOOGLE WEB FONT -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap" rel="stylesheet">
+    <link href="css/tstyles.css?ver=2.24" rel="stylesheet">
+    <link href="css/style.css?ver=3.63" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/content.css?ver=1.17" />
+    <script>
+        $(document).ready(function () {
+
+            function navSlide() {
+                const burger = document.querySelector(".burger");
+                const nav = document.querySelector(".nav-links");
+                const navLinks = document.querySelectorAll(".nav-links li");
+
+                burger.addEventListener("click", () => {
+                    //Toggle Nav
+                    nav.classList.toggle("nav-active");
+
+                    //Animate Links
+                    navLinks.forEach((link, index) => {
+                        if (link.style.animation) {
+                            link.style.animation = ""
+                        } else {
+                            link.style.animation = `navLinkFade 0.5s ease forwards ${index / 7 + 0.5}s`;
+                        }
+                    });
+                    //Burger Animation
+                    burger.classList.toggle("toggle");
+                });
+
+            }
+
+            navSlide();
+        });
+    </script>
+    <style>
+        h3 {
+            padding: inherit;
+        }
+
+        @media screen and (max-width:767px) {
+
+            .tbloverflow {
+                overflow-x: scroll;
+            }
+
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="div-main-container mm-slideout">
+
+        <div class="content_bg" style="background-image: url(media/product7.jpg);">
+
+            <div class="bg_overlay">
+                <div class="menustart">
+                    <nav>
+                        <div class="logo">
+                            <a href="index.html"><img src="media/logo.png?ver=1.1"></a>
+                        </div>
+                        <ul class="nav-links">
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="about.html">About</a></li>
+                            <li><a href="products.html">Products</a></li>
+                            <li><a href="services.html">Services</a></li>
+                            <li><a href="gallery.html">Gallery</a></li>
+                            <li><a href="contact.html">Contact Us</a></li>
+                        </ul>
+                        <div class="burger">
+                            <div class="line1"></div>
+                            <div class="line2"></div>
+                            <div class="line3"></div>
+                        </div>
+                        <div class=" social_mob hidden-lg hidden-md">&nbsp;
+                            <div class="social"> <span class="facebook"><a
+                                        href="https://www.facebook.com/alwaysdrynewdelhi" target="_blank"><i
+                                            class="fa fa-facebook"></i></a></span>&nbsp;
+                                <span class="youtube"><a href="https://www.youtube.com/@alwaysdrynewdelhi6493"
+                                        target="_blank"><i class="fa fa-youtube-play"></i></a></span>&nbsp;
+                                <span class="instagram"><a
+                                        href="https://www.instagram.com/alwaysdry.newdelhi/?igshid=YmMyMTA2M2Y%3D"
+                                        target="_blank"><i class="fa fa-instagram"></i></a></span>
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+
+                <h1 class="content_header" data-aos="fade-up" data-aos-duration="1000">SERVICES</h1>
+                <p class="content_header1" data-aos="flip-left" data-aos-easing="ease-out-cubic"
+                    data-aos-duration="2000">SAFEGUARD YOUR PRECIOUS RIDE</p>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+        <div class="clearfix"></div>
+        <div class="col-md-12 tabsection">
+
+
+            <ul class="nav nav-tabs">
+                <li class="active"><a data-toggle="tab" href="#home">PAINT PROTECTION FILM</a></li>
+                <li><a data-toggle="tab" href="#menu1">CORRECTIVE PAINT RESTORATION</a></li>
+                <li><a data-toggle="tab" href="#menu2">CERAMIC COATING</a></li>
+                <!-- <li><a data-toggle="tab" href="#menu3">Menu 3</a></li>-->
+            </ul>
+
+            <div class="tab-content">
+                <div id="home" class="tab-pane fade in active tablebr">
+
+                    <div class="col-md-12">
+
+
+                        <div class="col-md-12">
+                            <h2 class="text-center">INSTANT HEALING PPF</h2>
+                            <div class="col-md-6">
+                                <h2>
+                                    WHAT IS PAINT PROTECTION FILM?
+                                </h2>
+                                <p>
+                                    AlwaysDry Paint Protection Films are the most effective paint protection films
+                                    worldwide. Patented, innovative technologies have helped create a product that
+                                    provides
+                                    maximum protection for vehicle paint while maintaining optical invisibility. Your
+                                    vehicle is protected against the formation of swirl caused by improper cleaning,
+                                    sandblasting/chip stones caused by vehicle driving ahead of the car, scratches, the
+                                    harmful effects of chemicals, bird droppings, and other roadway hazards.
+                                </p>
+                                <h2>
+                                    DESIGNED TO PRODUCT
+                                </h2>
+                                <p>
+                                    AlwaysDry Instant Natural Healing provides the highest quality protection alongside
+                                    industry- leading optical clarity and durability. Our “instant" self-healing
+                                    technology
+                                    allows the film to maintain its already hydrophobic surface from light scratching
+                                    without the need for additional heat, and with AlwaysDry Instant Natural Healing's
+                                    superior optical clarity, you don't need to sacrifice beauty for protection. The
+                                    flattest, glossiest product available on the international market today.
+                                </p>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="paddbtm">
+                                    <table>
+                                        <tbody>
+                                            <tr class="bggrey">
+                                                <td>Adhesive Thickness <br>(PSTC - 133-TARGET 1.5-1.8MIL)</td>
+                                                <td>1.6MIL ACRYLIC PSA (0.04MM)</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Product Thickness <br>Release Liner Thickness</td>
+                                                <td>Film: 6mil Clear Urethane (0.16mm) (non Yellowing)<br> 3.1 Mil (pet)
+                                                    (0.07mm)</td>
+                                            </tr>
+                                            <tr class="bggrey">
+                                                <td>Peel<br>(PSTC-101) 3D/RT/SS</td>
+                                                <td>4708.293GF/IN (705N/25MM)<br> Film Stretched During Peels</td>
+                                            </tr>
+                                            <tr>
+                                                <td>SHEAR<br>(pstc-101) 1hr Dwell / Ss </td>
+                                                <td>Averages 257MINS/ 4.28HRS</td>
+                                            </tr>
+                                            <tr class="bggrey">
+                                                <td>Tensile Breaking Strength <br>(PSTC - 131 LBYIN &amp; N25 MM)
+                                                    20″/MIN/2″
+                                                    Jaw / Vinyl Setting</td>
+                                                <td>109 LBYIN (9.141829 N25MM)</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Enlongation%<br>(substrate? Adhesive Only PSTC-131)</td>
+                                                <td>400%</td>
+                                            </tr>
+                                            <tr class="bggrey">
+                                                <td>Gravelometer (SAEJ4000)</td>
+                                                <td>Pass (No ruptures).</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Outdoor Weathering - 24 Months <br>Arizona 45″ South Exposure <br>
+                                                    (Range 35&deg;f-105&deg;F)</td>
+                                                <td>Pass. <br>No Significant Change In Gloss.<br>No Significant Change
+                                                    In
+                                                    Adhesion.<br>No Cracking or Glazing.</td>
+                                            </tr>
+                                            <tr class="bggrey">
+                                                <td>Resistance To Chemicals/Fluids <br> Crockmeter-6 Cycles<br> <br>
+                                                    Isopropanol/water (1.1) <br> Carburator (Spray/rub Test)</td>
+                                                <td>No Change.<br><br><br>Residue Wipes off. No Change to Film
+                                                    <br>Surface.
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="clearfix"></div>
+                    <div class="ppfimage"
+                        style="background: url(media/gallerypage2.jpg) center center no-repeat fixed;">
+                        <div class="bg_overlay">
+
+                            <div class="col-md-12">
+                                <h2 class="text-center">PPF PROVIDES BENEFITS AGAINST</h2>
+                                <div class="col-md-6">
+                                    <ul>
+
+                                        <li>
+                                            Stone Chips
+                                            (Protects Bonnet, Headlights, Bumpers From Stone Chips On Road)
+                                        </li>
+
+                                        <li>Scratches & Swirls Marks
+                                            (Improper Cleaning & Road Side Brushes)</li>
+                                        <li>Head Turner Gloss For Lifetime
+                                            (Enhance Color Depth & Extreme Gloss)</li>
+                                        <li>
+                                            No Maintenance
+                                            (No Rubbing, No Polishing & No Wax)</li>
+
+                                    </ul>
+                                </div>
+
+                                <div class="col-md-6">
+                                    <ul>
+                                        <li>
+                                            Easy Care
+                                            (A Brand New Car Is Just A Wash Away) </li>
+
+
+                                        <li>Safe From Natural Damages
+                                            (U.V Rays, Acid Rain & Storm Particles) </li>
+                                        <li>Safe From Mall Parking Brushes, Scratches That Occur From
+                                        <li>Side Parked Cars & Hypermarket Trollies </li>
+                                        <li> One-Time Investment That Will Pay Back For A Lifetime
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-12">
+                        <div class="col-md-12">
+                            <h2 class="text-center">ALWAYSDRY PPF</h2>
+                            <p>When it comes to protecting your vehicle's paint finish, it's a jungle of flying
+                                objects
+                                and natural forces out there: stones, gravel, sand, bird droppings, winter salt,
+                                tree
+                                sap, bugs, oil, and other road debris. Fortunately, there's an easy, long-lasting
+                                solution to protecting your vehicle and maintaining its new look. For even more
+                                protection, it's backed by a 5-year limited warranty.</p>
+                            <div class="col-md-6">
+
+
+
+
+                                <h3>FULL RANGE OF VEHICLE SURFACES</h3>
+                                <div class="col-md-6">
+                                    <ul>
+
+                                        <li> Hood</li>
+                                        <li>Bumpers</li>
+                                        <li>Fenders</li>
+                                        <li>Side view mirrors</li>
+
+                                        <li>Door frame edges & threholds</li>
+                                        <li>Wiper blade landing areas</li>
+                                    </ul>
+                                </div>
+                                <div class="col-md-6">
+                                    <ul>
+                                        <li>Door handles and locks</li>
+                                        <li>Roof areas</li>
+                                        <li>Under utility</li>
+                                        <li>Around wheel wells</li>
+                                        <li>Rocker panels</li>
+                                        <li>Rear Quarter Panel</li>
+                                        <li>Truck bed rails </li>
+                                    </ul>
+                                </div>
+                                <h3>IT'S VERSATILE AND CAN BE INSTALLED ON</h3>
+                                <div class="col-md-6">
+                                    <ul>
+                                        <li>RVs </li>
+                                        <li>ATVs </li>
+                                        <li>Jet skis </li>
+                                        <li>Boats </li>
+                                    </ul>
+                                </div>
+                                <div class="col-md-6">
+                                    <ul>
+                                        <li>Motorcycles </li>
+                                        <li>High-performance vehicles </li>
+                                        <li>Tractors </li>
+                                        <li>Utility vehicles</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div>
+                                    <table class="tech_table">
+                                        <tbody>
+                                            <tr class="bggrey">
+                                                <td>Total Thickness:</td>
+                                                <td>6.6mil/170um</td>
+                                            </tr>
+                                            <tr>
+                                                <td>TPU Film:</td>
+                                                <td>5.2mil</td>
+                                            </tr>
+                                            <tr class="bggrey">
+                                                <td>Gloss:</td>
+                                                <td>94.2</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Self-Healing Coating: </td>
+                                                <td>15um</td>
+                                            </tr>
+                                            <tr class="bggrey">
+                                                <td>Adhesive Layer:</td>
+                                                <td>25um</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Elongation at Break: </td>
+                                                <td>≥290%</td>
+                                            </tr>
+                                            <tr class="bggrey">
+                                                <td>100% Modulus:</td>
+                                                <td>9.28Mpa</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Tensile Strength:</td>
+                                                <td>21.62Mpa</td>
+                                            </tr>
+                                            <tr class="bggrey">
+                                                <td>Tear Strength:</td>
+                                                <td>97.69 KN/m</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Peeling Force of Acrylic Adhesive Layer/20min: </td>
+                                                <td>235 gf/inch ≥</td>
+                                            </tr>
+                                            <tr class="bggrey">
+                                                <td>Peeling Force of Acrylic Adhesive Layer/24h:</td>
+                                                <td>1778 gf/inch</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Anti- Yellowing</td>
+                                                <td>△≥290% E 1.2 </td>
+                                            </tr>
+                                            <tr class="bggrey">
+                                                <td>Hydrophobic Property:</td>
+                                                <td>R9-R10</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Stain Resistance:</td>
+                                                <td>Can Be Removed By Tissue</td>
+                                            </tr>
+                                            <tr class="bggrey">
+                                                <td>Aging Test:</td>
+                                                <td>No Significant Change (1000 Hours)</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Acid Resistance:</td>
+                                                <td>No Abnormalities</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-12">
+                            <h2 class="text-center">LLUMAR</h2>
+                            <div class="col-md-12">
+                                <div class="col-md-6">
+
+
+
+                                    <h3>
+                                        WHAT'S NEW </h3>
+                                    <p>Superior Stain Resistance And Enhanced Durability Are Now Available With Llumar's
+                                        Industry Leading Clear Coat With Hydrogard™ Technology. This Innovative
+                                        Hydrophobic
+                                        Polymer Coating Works By Preventing Water And Dirt From Embedding Into The
+                                        Surface
+                                        Of The Film, Helping Keep Cars Looking Cleaner, Longer.</p>
+                                    <h3>WHAT YOU'VE COME TO EXPECT</h3>
+                                    <ul>
+                                        <li>Repositionable Adhesive Provides Flexibility With Minimal Risk Of Adhesive
+                                            Lines
+                                        </li>
+                                        <li>Advanced Self-Healing Clear Coat Resists Scuffing During Installation</li>
+                                        <li>3" Core Is Easy To Handle And Use On A Plott</li>
+                                        <li>Comprehensive, High-Quality Pattern Database Available</li>
+                                        <li>High Gloss And Matte Finishes Match Factory Clear Coat Or Custom Matte Paint
+                                        </li>
+                                        <li>60" Wide Rolls Provide Full Hood Coverage Without Seams</li>
+                                        <li>Installation Training Videos And Classes Offered</li>
+                                    </ul>
+                                </div>
+                                <div class="col-md-6">
+                                    <img class="img-responsive" src="media/ppfpage.jpg" />
+                                </div>
+                                <div class="clearfix"></div>
+                                <div>
+                                    <h2 class="text-center">HOW DOES IT COMPARE?</h2>
+                                    <div class="cr tbloverflow">
+                                        <table class="com_table" style="width:100%;">
+                                            <tbody>
+                                                <tr class="bggrey">
+                                                    <th>
+                                                        Enhanced Benefits
+                                                    </th>
+                                                    <th>
+                                                        Scratch Resistance
+                                                    </th>
+                                                    <th>
+                                                        Stain and Dirt Resistance
+                                                    </th>
+                                                    <th>
+                                                        Hydrophobic Surface
+                                                    </th>
+                                                    <th>
+                                                        Manufacturer's Limited Warranty
+                                                    </th>
+                                                </tr>
+                                                <tr>
+                                                    <th>LLumar® PPF</th>
+                                                    <td>Self-healing</td>
+                                                    <td>Good</td>
+                                                    <td>None</td>
+                                                    <td>5 Years w/ <br>Labor Allowance</td>
+                                                </tr>
+                                                <tr class="bggrey">
+                                                    <th>LLumar® Platinum PPF</th>
+                                                    <td>Self-healing</td>
+                                                    <td>Superior</td>
+                                                    <td>Advanced</td>
+                                                    <td>10 Years w/ <br> Labor Allowance</td>
+                                                </tr>
+                                                <tr>
+                                                    <th>Valor PPF</th>
+                                                    <td>Self-healing</td>
+                                                    <td>Superior</td>
+                                                    <td>Most Advanced</td>
+                                                    <td>12 Years w/ <br> Labor Allowance</td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </div>
+                                <div>
+                                    <h2>FILM ROLL WIDTHS (APPLICABLE FOR BOTH PRODUCT LINES)</h2>
+                                    <div class="cr">
+                                        <table class="roll_table" style="width:100%;">
+                                            <tbody>
+                                                <tr>
+                                                    <th>PAINT PROTECTION FILM</th>
+                                                    <th>12"</th>
+                                                    <th>18"</th>
+                                                    <th>24"</th>
+                                                    <th>30"</th>
+                                                    <th>48"</th>
+                                                    <th>60"</th>
+                                                </tr>
+                                                <tr>
+                                                    <th>Gloss Finish - 50' Roll Length</th>
+                                                    <td></td>
+                                                    <td></td>
+                                                    <td></td>
+                                                    <td></td>
+                                                    <td></td>
+                                                    <td><span></span></td>
+                                                </tr>
+                                                <tr>
+                                                    <th>Gloss Finish - 100' Roll Length</th>
+                                                    <td><span></span></td>
+                                                    <td><span></span></td>
+                                                    <td><span></span></td>
+                                                    <td><span></span></td>
+                                                    <td><span></span></td>
+                                                    <td></td>
+                                                </tr>
+                                                <tr>
+                                                    <th>Matte Finish - 50' Roll Length</th>
+                                                    <td></td>
+                                                    <td></td>
+                                                    <td></td>
+                                                    <td></td>
+                                                    <td></td>
+                                                    <td></td>
+                                                </tr>
+                                                <tr>
+                                                    <th>Matte Finish - 100' Roll Length</th>
+                                                    <td></td>
+                                                    <td></td>
+                                                    <td></td>
+                                                    <td></td>
+                                                    <td><span></span></td>
+                                                    <td></td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+                <div id="menu1" class="tab-pane fade">
+
+                    <h2 class="text-center">ULTIMATE PAINT CORRECTION & PROTECTION SYSTEM</h2>
+                    <div class="col-md-6">
+                        <p>
+                            CPR was primarily designed for used cars. Due to normal wear and tear, a new car's
+                            finish
+                            gets scratched up and dulled over time, reducing the resale value of the vehicle. CPR is
+                            a 3
+                            step process that revives dull, faded, weathered, scratched, old looking paint, that
+                            otherwise may require vehicle to be painted, and literally gives it a new life. CPR
+                            takes
+                            years of damage off your car, restores the paint to its best ability, and brings back
+                            that
+                            showroom shine.
+                        </p>
+                        <p>
+                            CORRECTION: In this process, all visible scratches, swirl marks, signs of oxidation,
+                            hard
+                            water etching, and other common paint defects are corrected.
+                        </p>
+                        <p>
+                            PROTECTION : Newly created showroom shine is “locked in" by applying an ultra-durable
+                            protective layer of professional grade 9H-LDC.
+                        </p>
+                        <div class="clearfix"></div>
+                    </div>
+                    <div class="col-md-6">
+                        <img class="img-responsive" src="media/product4.jpg" />
+                    </div>
+                </div>
+                <div class="clearfix"></div>
+                <div id="menu2" class="tab-pane fade">
+
+                    <h2 class="text-center">WHAT IS AVAILABLE ON THE MARKET</h2>
+                    <div class="col-md-12">
+                        <div class="col-md-6">
+                            <img class="img-responsive" src="media/product5.jpg" />
+                        </div>
+                        <div class="col-md-6">
+
+                            <p>WAX :- Car wax is predominately a “wax" and just like any other wax it melts in heat. The
+                                sun's
+                                UV rays. Simply washing a vehicle will strip the wax off. Waxes offer no scratch
+                                protection
+                                &
+                                must be reapplied periodically to maintain the original shine.
+                            </p>
+                            <p>POLYMER SEALANTS/TEFLON :- Polymer based, so called “nano" sealants such as PTFE, also
+                                known
+                                as
+                                TEFLON, have been all the rage for the past few years. Polymer sealants offered good
+                                water
+                                repellence & shine but no scratch protection. Teflon is an outdated technology as it
+                                needs
+                                to be
+                                re-applied every 3-6 months.
+                            </p>
+                            <p>
+                                CERAMIC COATINGS :- These are silica based coatings, also known as glass or Ceramic
+                                coatings
+                                (glass is made 70% of silica). Most ceramic coatings on the market are usually less than
+                                1
+                                micron thick and 6-7H on the MOHS (Minerals On Hardness Scale) hardness scale, with
+                                talcum
+                                powder being 1 and diamond being 10 hard. Most regular ceramic coatings last a few
+                                months.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-12">
+                        <div class="col-md-6">
+                            <p></p>
+                            <p> DUAL COMPOSITE STRUCTURE :- 9H-LDC PRO is composed of high grade Quartz silica (ultra
+                                hard
+                                glass). Its nano ceramic particles form a permanent bond with the clear coat and become
+                                a
+                                functional part of the vehicle's body. Unlike most regular 9H coatings that are one
+                                dimensional,
+                                9H-LDC PRO is dual- composite structure that consists of two layers, ultra-hard 9H
+                                bottom
+                                layer
+                                and super slick top layer. Due to its unique structure it delivers the two most
+                                desirable
+                                effects, extreme hardness and extreme beading, in a single ceramic coat.
+                            </p>
+                            <p>
+                                TRUE 9H HARDNESS :- TRUE 9H HARDNESS : The Aviation grade 9H-LDC Extreme & 9H-LDC PRO is
+                                the
+                                only ceramic coating on the market that offers True 9H Hardness with single coat. Due to
+                                its
+                                hardness, protective layer created by 9H-LDC Extreme & 9H-LDC PRO is extremely scratch
+                                resistant
+                                and creates an impenetrable barrier against elements.</p>
+                        </div>
+                        <div class="col-md-6">
+                            <img class="img-responsive" src="media/product6.jpg" />
+                        </div>
+                    </div>
+                </div>
+                <div class="clearfix"></div>
+                <!--<div id="menu3" class="tab-pane fade">
+                <h3>Menu 3</h3>
+                <p>Eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+              </div>-->
+            </div>
+        </div>
+
+        <div class="clearfix"></div>
+
+        <footer>
+
+            <div class="container container-custom margin_80_55">
+                <div class="row">
+                    <div class="col-lg-4 col-md-12 p-r-5 center">
+
+                        <p style="text-align:center" data-aos="fade-up-right" data-aos-duration="2000"><img
+                                src="media/Shieldlogo.webp" width="22%" alt=""><br />
+                            <br /><img class="flogo" src="media/logo.png?ver=1.1" width="65%" alt="">
+                        </p>
+
+
+                    </div>
+                    <div class="col-lg-4 col-md-12" data-aos="fade-up" data-aos-duration="2000">
+                        <h4>GET IN TOUCH</h4>
+
+                        <p><i class="fa fa-map-marker"></i>&nbsp; <span
+                                style="display:inline-block;    vertical-align: top;"> B7 Ground Floor, Mansarover
+                                Garden<br />
+                                New Delhi-110 015, India</span><br /><br />
+                            <i class="fa fa-phone"></i>&nbsp; +91 11 4141 5041,+91 999 941 5021
+                            <br /><br />
+                            <i class="fa fa-envelope"></i>&nbsp; alwaysdrynewdelhi@gmail.com
+
+                        </p>
+                        <div class="social">&nbsp;
+                            <span class="facebook"><a href="https://www.facebook.com/alwaysdrynewdelhi"
+                                    target="_blank"><i class="fa fa-facebook"></i></a></span>&nbsp;
+                            <span class="youtube"><a href="https://www.youtube.com/@alwaysdrynewdelhi6493"
+                                    target="_blank"><i class="fa fa-youtube-play"></i></a></span>&nbsp;
+                            <span class="instagram"><a
+                                    href="https://www.instagram.com/alwaysdry.newdelhi/?igshid=YmMyMTA2M2Y%3D"
+                                    target="_blank"><i class="fa fa-instagram"></i></a></span>
+                        </div>
+
+
+                    </div>
+                    <div class="col-lg-4 col-md-12" data-aos="fade-up-left" data-aos-duration="2000">
+
+                        <div>
+                            <div class="quick_links text-center">
+                                <h4>QUICK LINKS</h4>
+                                <ul>
+                                    <li><a href="index.html">Home</a></li>
+                                    <li><a href="about.html">About</a></li>
+                                    <li><a href="products.html">Products</a></li>
+                                    <li><a href="services.html">Services</a></li>
+                                    <li><a href="gallery.html">Gallery</a></li>
+                                    <li><a href="contact.html">Contact US</a></li>
+                                </ul>
+                            </div>
+
+
+                        </div>
+
+                    </div>
+
+
+                </div>
+
+            </div>
+
+        </footer>
+        <div class="text-center design">Designed By: <a href=""
+            target="_blank">Ritu</a></div>
+    </div>
+
+
+
+
+    <div class="clearfix"></div>
+
+    <!--animation script-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+
+
+
+    <!-- COMMON SCRIPTS -->
+    <script src="js/common_scripts.js?ver=1.1"></script>
+    <script src="js/main.js?ver=3.0"></script>
+
+
+    <style>
+        body .tabsection {
+
+            font-size: 2rem;
+        }
+
+        footer [data-aos^=fade][data-aos^=fade] {
+            opacity: 1;
+            transform: none;
+        }
+
+        @media screen and (max-width: 767px) {
+            body .tabsection {
+                font-size: 1.2rem;
+            }
+        }
+    </style>
+    <script>
+        let items = document.querySelectorAll(".c1 .c1i");
+
+        items.forEach((el) => {
+            const minPerSlide = 6;
+            let next = el.nextElementSibling;
+            for (var i = 1; i < minPerSlide; i++) {
+                if (!next) {
+                    // wrap carousel by using first child
+                    next = items[0];
+                }
+                let cloneChild = next.cloneNode(true);
+                el.appendChild(cloneChild.children[0]);
+                next = next.nextElementSibling;
+            }
+        });
+    </script>
+    <script src='js/main4d.js?ver=2.12'></script>
+
+
+
+</body>
+
+</html>

@@ -1,0 +1,2365 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head id="Head1">
+    <title>
+        Always Dry
+    </title>
+    <meta id="MetaViewport" name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <meta name="description" content="Always Dry" />
+
+    <link href='https://fonts.googleapis.com/icon?family=Material+Icons' rel='stylesheet' />
+
+    <script src='js/jquery-1.11.3.min.js?ver=1.6' type='text/javascript'></script>
+
+    <link href='https://cdn.jsdelivr.net/npm/font-awesome@4.7.0/css/font-awesome.css' rel='stylesheet' />
+
+    <link href='css/font-awesome.min.css?ver=2.1' rel='stylesheet' media='all' />
+
+    <script>
+        $(document).ready(function () {
+            $(".div-main-container").removeClass("div-main-container mm-slideout");
+            $(".container-fluid.SlideShow_Height").removeClass("container-fluid SlideShow_Height");
+            $(".div-main-container").removeClass("div-main-container mm-slideout");
+            $(".extrarow.row").removeClass("extrarow row");
+            $(".container-fluid.SlideShow_Height").removeClass("container-fluid SlideShow_Height");
+            $(".header.header_backimg").removeClass("header header_backimg clearfix");
+        });
+    </script>
+
+
+
+    <script>
+        $(document).ready(function () {
+            if (window.screen.width >= 1600) {
+                $('.section.home-banner,.hero_single.jarallax').css({ 'height': (($(window).height() + 120)) + 'px' });
+            }
+            if (window.screen.width >= 1399 && window.screen.width <= 1599) {
+                $('.section.home-banner,.hero_single.jarallax').css({ 'height': (($(window).height() + 50)) + 'px' });
+            }
+        });
+    </script>
+    <style type="text/css">
+        .menu-on .header.header_backimg.clearfix.header--shrink {
+            position: fixed !important;
+            height: 100vh;
+            overflow-y: hidden !important;
+            margin: 0;
+        }
+
+        .home-layout {
+            overflow-x: hidden !important;
+            position: relative;
+        }
+
+        a:hover {
+            text-decoration: none !important;
+        }
+
+        .home:not(.fsComposeMode) .panel-calendar .fsDate .fsDay {
+            padding: 6px 2px;
+        }
+
+        .home:not(.fsComposeMode) .panel-welcome>header .fsElementTitle,
+        .home:not(.fsComposeMode) .panel-news>header .fsElementTitle,
+        .home:not(.fsComposeMode) .panel-calendar>header .fsElementTitle {
+            color: #173e30 !important;
+        }
+
+        .wpb_wrapper .lab-blog-posts .blog-post-entry .blog-post-content-container .blog-post-date {
+            color: #173e30;
+        }
+
+        .home:not(.fsComposeMode) .panel-calendar .fsDate .fsDay {
+            color: #173e30 !important;
+        }
+
+        .wpb_wrapper .lab-blog-posts .blog-post-entry .blog-post-content-container .blog-post-date {
+            background-color: #173e30 !important;
+        }
+
+        .home:not(.fsComposeMode) .panel-welcome>header a,
+        .home:not(.fsComposeMode) .panel-news>header a,
+        .home:not(.fsComposeMode) .panel-calendar>header a {
+            color: #173e30 !important;
+        }
+
+        header.main-header {
+            top: 0px;
+        }
+
+        .paramount-slide-home.wrap {
+            min-height: auto;
+            margin-bottom: 0;
+        }
+
+        .logo img {
+            width: 100%;
+        }
+
+        header.main-header .header-menu .header-menu-content .first-level-list .first-level-item>a>span,
+        header.main-header .header-menu .header-menu-content .first-level-list p .first-level-item>a>span {
+            color: #fff;
+        }
+
+        header.main-header .header-right .menu-toggle .title .title-text {
+            color: #fff;
+        }
+
+        header.main-header .header-menu .header-menu-content .second-level-list .second-level-item>a,
+        header.main-header .header-menu .header-menu-content .second-level-list p .second-level-item>a,
+        .footer-details span {
+            color: #fff;
+        }
+
+        li.second-level-item>a span {
+            position: relative;
+            display: inline-block;
+            font-size: 2rem;
+            border: none;
+            text-transform: none;
+            color: #fff;
+            margin: 0;
+            width: 100%;
+        }
+
+        .design,
+        .design a,
+        .design a:hover {
+            color: #aaa6a6;
+        }
+
+        .icon h5 {
+            background: #62b92c;
+            width: 65px;
+            height: 65px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 100%;
+            cursor: pointer;
+        }
+
+        .icon h5 i {
+            color: #ffffff;
+        }
+
+        .icon {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+        /* .introduction .badge {
+    border-radius:0;
+  }
+  .intro-content p.heading{
+    padding-top:4px;
+  }
+.credits-copy{
+   font-size: 0.8rem;color:#fff;
+}footer.main-footer .footer-left .phone {
+      display: contents;
+}
+ footer .phone span{
+    font-size:1.8rem;
+  }
+ footer .contact span{
+    color:#ffbb23;
+  }
+
+@media (min-width: 769px){
+footer.main-footer .credits, footer.main-footer .credits a {
+    font-size: 0.8rem;
+}
+}
+  @media (min-width: 768px){
+footer.main-footer .footer-bottom-left {
+    text-align: left;
+    padding-left: 0;
+}
+  }*/
+    </style>
+
+
+    <link href='css/bootstrap.css?ver=1.95' rel='stylesheet' />
+    <link href="css/tbootstrap.css?ver=1.12" rel="stylesheet">
+
+    <link href="css/vendors.css?ver=1.15" rel="stylesheet">
+    <!-- YOUR CUSTOM CSS -->
+    <!-- GOOGLE WEB FONT -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap" rel="stylesheet">
+    <link href="css/tstyles.css?ver=2.26" rel="stylesheet">
+    <link href="css/style.css?ver=3.70" rel="stylesheet">
+    <link href="css/home.css?ver=1.25" rel="stylesheet" />
+
+    <script>
+        $(document).ready(function () {
+
+            function navSlide() {
+                const burger = document.querySelector(".burger");
+                const nav = document.querySelector(".nav-links");
+                const navLinks = document.querySelectorAll(".nav-links li");
+
+                burger.addEventListener("click", () => {
+                    //Toggle Nav
+                    nav.classList.toggle("nav-active");
+
+                    //Animate Links
+                    navLinks.forEach((link, index) => {
+                        if (link.style.animation) {
+                            link.style.animation = ""
+                        } else {
+                            link.style.animation = `navLinkFade 0.5s ease forwards ${index / 7 + 0.5}s`;
+                        }
+                    });
+                    //Burger Animation
+                    burger.classList.toggle("toggle");
+                });
+
+            }
+
+            navSlide();
+        });
+    </script>
+    <script>
+        $(window).scroll(function () {
+            var scroll = $(window).scrollTop();
+            if (scroll > 150) {
+                $(".menustart nav").addClass("darkHeader");
+            }
+            else if (scroll < 150) {
+                $(".menustart nav").removeClass("darkHeader");
+            }
+        });
+
+        function SetTestimonialContent() {
+            var strtestmonial = '';
+            var arrContents = [
+                "Car was transformed to a new one . Worth the pricing.",
+                "Best service got from 2years in my MG Hector",
+                "Excellent car detailing and PPF installation. Staff is Very courteous ,prompt, disciplined and polite with very good workmanship.The workshop Manager and the owner are Very transparent in their dealings and providing world class services with equally competent professional ethics. As a customer we are 100% satisfied.",
+                "One of the best places in Delhi NCR to get ceramic coating and PPF done. They use the best products available in the market. Highly recomended.",
+                "Got my BMW coated. Looks superb. Excellent service quality from very well trained professionals. They deliver what they commit. Would definitely recommend this to both new and used car owners.",
+                "And it is mine 3rd year of always dry coating and my car still look like the new one and they provide best Nano ceramic coating and after coat services.",
+                "My Amaze is looking like brand new. Really I am fan of their work 100/100 One stop for car coating 👍",
+                "Just received my 3rd year service from Always Dry USA . Car look absolutely new. I am very much satisfied with the service. I do recommend everyone that don't go with cheap options because it will Everlast.  Go with Always Dry USA."
+            ];
+            var arrDates = [
+                "2022-11-12",
+                "2022-11-14",
+                "2022-11-14",
+                "2022-11-18",
+                "A Year Ago",
+                "2021",
+                "08-2022",
+                "A Year Ago"
+            ];
+
+            var arrNames = [
+                "Sumit Chawla",
+                "Randhir Singh",
+                "S. Singh",
+                "Vinod Dabas",
+                "Vineet Kumar",
+                "Inderjeet Rai",
+                "Munesh Chandra",
+                "Kunal Gupta"
+            ];
+
+            var arrImages = ["sumit.png", "randhir.png", "s.singh.png", "vinod.png", "vineet.png", "inderjeet.png", "Munesh.png", "kunal.png"];
+
+            var button = '';
+            for (var i = 0; i <= 7; i++) {
+
+                strtestmonial += `
+            
+            <a href="javascript:void(0);" style="opacity: 1; visibility: visible; transform: translateX(0px) translateZ(0px) rotateY(0deg); z-index: 1;">
+           
+            <div class="img1">
+                <div>
+                    <div class="testi_img"><img src="media/${arrImages[i]}" /><img
+                            class="google" src="media/google.svg" /></div>
+                    <p>${arrContents[i]}</p>
+                    <h4>${arrNames[i]}</h4>
+                    <p>${arrDates[i]}</p>
+                </div>
+            </div>
+            </a>
+            `
+
+                button += `<li index="${i}" class=""></li>`;
+            }
+
+            $(".dg-container .dg-wrapper").html(strtestmonial);
+            $(".dg-container #lightButton").html(button);
+        }
+
+
+    </script>
+</head>
+
+<body id="masterbody" class="masterbody home tier-2 layout-n0-p1-s1 findlocation scroll-assist">
+
+
+    <!--<nav id="menu"></nav>    <a id="scrollarrow" class="scrollToTop" href="#" title=""><i class="fa fa-angle-up"></i></a>-->
+    <div class="menustart">
+        <nav>
+            <div class="logo">
+                <a href="index.html"><img src="media/logo.png?ver=1.1"></a>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+            <div class="burger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+            <div class=" social_mob hidden-lg hidden-md">&nbsp;
+                <div class="social"> <span class="facebook"><a href="https://www.facebook.com/alwaysdrynewdelhi"
+                            target="_blank"><i class="fa fa-facebook"></i></a></span>&nbsp;
+                    <span class="youtube"><a href="https://www.youtube.com/@alwaysdrynewdelhi6493" target="_blank"><i
+                                class="fa fa-youtube-play"></i></a></span>&nbsp;
+                    <span class="instagram"><a
+                            href="https://www.instagram.com/alwaysdry.newdelhi/?igshid=YmMyMTA2M2Y%3D"
+                            target="_blank"><i class="fa fa-instagram"></i></a></span>
+                </div>
+            </div>
+        </nav>
+    </div>
+
+    <div class="div-main-container mm-slideout">
+        <div class="container-fluid SlideShow_Height">
+            <div class="extrarow row">
+                <div class="header header_backimg clearfix">
+
+
+                    <div class='header-view'></div>
+                    <div class='paramount-slide-home wrap' role='document'>
+                        <main class='main'>
+                            <div class='section home-banner'>
+                                <div class="hero_single jarallax video_bg">
+
+                                    <div class="slide">
+                                        <video autoplay loop muted>
+                                            <source src="media/video.mp4" type="video/mp4">
+                                        </video>
+                                        <div class="col-lg-4 col-md-4 video_text float-right wow position-relative"
+                                            data-wow-offset="250" data-aos="fade-up-right" data-aos-duration="2000">
+                                            <div class="block-reveal">
+                                                <div class="block-vertical"></div>
+                                                <div class="box_1 aos-init aos-animate">
+                                                    <div class="imageRotate owl-carousel owl-theme">
+
+                                                        <div class="item">
+                                                            <div href="javascript:;" class="grid_item_adventure">
+                                                                <figure>
+
+                                                                    <h2>Cover your ride with the ultimate armor of paint
+                                                                        protection. </h2>
+                                                                    <p></p>
+                                                                    <p class="readmore"><a href="contact.html">Get Free
+                                                                            Quote </a>
+                                                                    </p>
+                                                                </figure>
+                                                            </div>
+                                                        </div>
+
+                                                        <div class="item">
+                                                            <div href="javascript:;" class="grid_item_adventure">
+                                                                <figure>
+
+                                                                    <h2>Shield your car from the harmful effects of the
+                                                                        environment.</h2>
+                                                                    <p></p>
+                                                                    <p class="readmore"><a href="tel:+919999415021">Call
+                                                                            Now</a></p>
+                                                                </figure>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </main>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div class="custom-school1 wrap1">
+            <!-- /Background Self hosted video bg fullscreen -->
+            <div class="bg_color_2">
+                <div class="container-fluid ">
+                    <div class="container container-custom margin_30_95">
+
+                        <div class="main_title_2">
+
+
+                        </div>
+
+
+                        <div class="bg_color_1">
+                            <div class="container margin_80_55">
+                                <div class="main_title_2">
+                                    <span><em></em></span>
+                                    <h2>Our Origins and Story</h2>
+                                    <p>An Independent Brand</p>
+                                </div>
+                                <div class="row justify-content-between">
+                                    <div class="col-lg-6  position-relative" data-aos="fade-right"
+                                        data-aos-duration="2000">
+                                        <!--<figure class="block-reveal">-->
+
+
+                                        <!--</figure>-->
+                                        <div class="imageRotate owl-carousel owl-theme">
+
+                                            <div class="item">
+                                                <a href="javascript:;" class="grid_item_adventure">
+                                                    <figure>
+                                                        <img src="media/bg_call_section.jpg?ver=1.1" class="img-fluid"
+                                                            alt="">
+                                                    </figure>
+                                                </a>
+                                            </div>
+                                            <div class="item">
+                                                <a href="javascript:;" class="grid_item_adventure">
+                                                    <figure>
+                                                        <img src="media/1.jpg?ver=1.1" class="img-fluid" alt="">
+                                                    </figure>
+                                                </a>
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+                                    <div class="col-lg-5" data-aos="fade-up" data-aos-duration="2000">
+                                        <div data-aos="zoom-in" data-aos-duration="4000">
+
+                                            <p class="hidden-lg hidden-md"></p>
+                                            <h4>WELCOME TO ALWAYS DRY,<br /> NEW DELHI </h4>
+                                            <p>
+                                                AlwaysDry USA is a Global Leader in Automotive Paint Protection.
+
+                                                We believe in delivering the best-in-class ceramic coating to our
+                                                valuable customers. We understand that each penny spend is hard to earn
+                                                and hence we make sure that gets their value for money.
+                                            </p>
+                                            <h4>ULTRA DURABLE CERAMIC<br />COATING & PPF</h4>
+                                            <p>
+                                                We strive to provide an advanced opportunity to automotive drivers via
+                                                high-end True 9H Ceramic Nano Tech Coatings.
+
+                                                Our products are curated and modified with the help of nanotechnology to
+                                                ensure better durability, shine and protection.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!--/row-->
+                            </div>
+                            <!--/container-->
+                        </div>
+                        <!--/bg_color_1-->
+
+
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="bg_color_1" style="display:block;    background-color: #fff;">
+
+                <div class="container container-custom margin_80_55">
+                    <section class="add_bottom_45">
+                        <div class="main_title_2">
+                            <span><em></em></span>
+                            <h2 class="text-black">WHY ALWAYS DRY?</h2>
+
+                        </div>
+                        <div class="col-md-4 text-center margin-top_80">
+                            <h4 class="text-black">WHAT MAKES US DIFFERENT</h3>
+                                <p class="text-black" data-aos="fade-right" data-aos-duration="2000">
+                                    We believe in delivering the best-in-class ceramic coating to our valuable
+                                    customers. We understand
+                                    that each penny spend is hard to earn and hence we make sure that gets their value
+                                    for money.
+                                </p>
+                        </div>
+                        <div class="col-md-8">
+
+
+                            <div class="imageRotate owl-carousel owl-theme" data-aos="fade-left"
+                                data-aos-duration="2000">
+
+                                <div class="item">
+                                    <a class="grid_item_adventure">
+                                        <figure>
+
+                                            <img src="media/new6.jpg" class="img-fluid" alt="">
+                                            <div class="info">
+
+                                                <em></em>
+                                                <h3>Extreme Shine</h3>
+
+                                            </div>
+                                        </figure>
+                                    </a>
+                                </div>
+
+                                <div class="item">
+                                    <a class="grid_item_adventure">
+                                        <figure>
+
+                                            <img src="media/new4.jpg" class="img-fluid" alt="">
+                                            <div class="info">
+                                                <em></em>
+                                                <h3>Fewer Scratches</h3>
+                                            </div>
+                                        </figure>
+                                    </a>
+                                </div>
+
+                                <div class="item">
+                                    <a class="grid_item_adventure">
+                                        <figure>
+
+                                            <img src="media/better-resale.jpg?ver=1.1" class="img-fluid" alt="">
+                                            <div class="info">
+                                                <em></em>
+                                                <h3>Better Resale Value</h3>
+                                            </div>
+                                        </figure>
+                                    </a>
+                                </div>
+
+                                <div class="item">
+                                    <a class="grid_item_adventure">
+                                        <figure>
+
+                                            <img src="media/new21.jpg?ver=1.1" class="img-fluid" alt="">
+                                            <div class="info">
+                                                <em></em>
+                                                <h3>Protection from Sun</h3>
+                                            </div>
+                                        </figure>
+                                    </a>
+                                </div>
+
+
+
+                                <div class="item">
+                                    <a class="grid_item_adventure">
+                                        <figure>
+
+                                            <img src="media/new5.jpg" class="img-fluid" alt="">
+                                            <div class="info">
+                                                <em></em>
+                                                <h3>Self Healing Features</h3>
+                                            </div>
+                                        </figure>
+                                    </a>
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <!-- /reccomended_aventure -->
+                    </section>
+                    <!-- /section -->
+                </div>
+
+
+                <!--/container-->
+            </div>
+            <div class="bk_color2" style="background-color: #eee;">
+
+                <div class="container margin_80_55"><span><em></em></span>
+                    <div class="main_title_2">
+                        <span><em></em></span>
+                        <h2 class="text-black">HAPPY CUSTOMERS</h2>
+
+                    </div>
+                    <video autoplay loop muted style="width:100%;    border: 4px solid #262c2c;">
+                        <source src="media/happy.mp4?ver=1.3" type="video/mp4">
+                    </video>
+                </div>
+            </div>
+            <div class="call_section300">
+                <div class="overlay">
+                    <div class="container clearfix">
+                        <div class="row1">
+                            <div class="col-lg-7 col-md-6 float-right wow position-relative" data-wow-offset="250"
+                                data-aos="fade-up-right" data-aos-duration="2000">
+                                <div class="block-reveal">
+                                    <div class="block-vertical"></div>
+                                    <div class="box_1">
+                                        <h3>LEATHER PRO-TECH</h3>
+                                        <p>Leather Protection by Always Dry protects all leather from water and
+                                            oil-based stains. It is breathable and extremely durable thanks to unique
+                                            Always Dry's Ultra Durable NanoTech Coating.</p>
+                                        <p class="readmore"><a href="products.html">Read More </a></p>
+
+                                    </div>
+
+                                </div>
+                            </div>
+                            <!--<div class="col-lg-6"  data-aos="fade-up-left" data-aos-duration="2000">
+            <div class="box_2">
+                <figure>
+                    <img src="media/Home-PPF.jpg?ver=1.1" class="img-fluid" alt="">
+                </figure>
+            </div>
+        </div>-->
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="bg_color_1 bk_color">
+                <div class="container-fluid ">
+
+                    <div class="row justify-content-between ">
+                        <div class="col-lg-6 col-md-6 wow hidden-xs data-wow-offset=" 150">
+                            <div class="block-revealll">
+
+
+                                <div class="imageRotate owl-carousel owl-theme">
+
+                                    <div class="item">
+                                        <a href="javascript:;" class="grid_item_adventure">
+                                            <figure>
+                                                <img src="media/Home-PPF.png?ver=1.1" class="img-fluid" alt="">
+                                            </figure>
+                                        </a>
+                                    </div>
+                                    <div class="item">
+                                        <a href="javascript:;" class="grid_item_adventure">
+                                            <figure>
+                                                <img src="media/ALWAYSDRY-PPF.jpg?ver=1.1" class="img-fluid" alt="">
+                                            </figure>
+                                        </a>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-6 my-auto ">
+                            <div class="main_title_2 p-5 text-left ldcex ">
+                                <h2 class="text-black" data-aos="fade-up-left" data-aos-duration="2000">9H-LDC EXTREME
+                                </h2>
+
+                                <ul data-aos="fade-right" data-aos-duration="4000">
+                                    <li><i class="fa fa-check"></i>&nbsp; <span> Aviation Grade Ceramic Coating</span>
+                                    </li>
+                                    <li><i class="fa fa-check"></i>&nbsp; <span> Permanent chemical bond</span></li>
+                                    <li><i class="fa fa-check"></i>&nbsp; <span> Extreme scratch resistance</span></li>
+                                    <li><i class="fa fa-check"></i>&nbsp; <span> Extreme beading/Self-cleaning
+                                            effect</span></li>
+                                    <li><i class="fa fa-check"></i>&nbsp; <span> UV, chemical, and thermal
+                                            resistance</span></li>
+                                    <li><i class="fa fa-check"></i>&nbsp; <span>Enhances color depth & adds highly
+                                            reflective shine</span></li>
+                                </ul>
+                                <p></p>
+                                <p class="readmore"><a href="products.html">Read More </a></p>
+                            </div>
+
+
+                        </div>
+                        <div class="col-lg-6 col-md-6 wow hidden-lg hidden-md" data-wow-offset="150">
+                            <div class="block-revealll">
+
+
+                                <div class="imageRotate owl-carousel owl-theme">
+
+                                    <div class="item">
+                                        <a href="javascript:;" class="grid_item_adventure">
+                                            <figure>
+                                                <img src="media/Home-PPF.png" class="img-fluid" alt="">
+                                            </figure>
+                                        </a>
+                                    </div>
+                                    <div class="item">
+                                        <a href="javascript:;" class="grid_item_adventure">
+                                            <figure>
+                                                <img src="media/ALWAYSDRY-PPF.jpg?ver=1.1" class="img-fluid" alt="">
+                                            </figure>
+                                        </a>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <!--/row-->
+                </div>
+                <!--/container-->
+            </div>
+
+            <div class="bg_color_0 bk_color">
+                <div class="container-fluid ">
+
+                    <div class="row justify-content-between ">
+
+
+
+                        <div class="col-lg-6 col-md-6 my-auto ldcex">
+                            <div class="main_title_2 p-5 text-left ">
+                                <h2 class="text-black" data-aos="fade-bottom" data-aos-duration="2000">9H-LDC PRO </h2>
+                                <ul data-aos="fade-right" data-aos-duration="4000">
+                                    <li><i class="fa fa-check"></i>&nbsp;<span> Permanent chemical bond</span></li>
+                                    <li><i class="fa fa-check"></i>&nbsp; <span>Extreme scratch resistance</span></li>
+                                    <li><i class="fa fa-check"></i>&nbsp; <span>Extreme beading/Self-cleaning
+                                            effect</span></li>
+                                    <li><i class="fa fa-check"></i>&nbsp; <span>UV, chemical and thermal
+                                            resistance</span></li>
+                                    <li><i class="fa fa-check"></i>&nbsp; <span>Enhances color depth & adds highly
+                                            reflective shine</span></li>
+                                </ul>
+                                <p></p>
+                                <p class="readmore"><a href="products.html">Read More </a></p>
+                            </div>
+
+
+                        </div>
+                        <div class="col-lg-6 col-md-6 wow" data-wow-offset="150">
+                            <div class="block-revealll">
+
+
+                                <div class="imageRotate owl-carousel owl-theme">
+
+                                    <div class="item">
+                                        <a href="javascript:;" class="grid_item_adventure">
+                                            <figure>
+                                                <img src="media/LLUMAR-1.jpg?ver=1.12" class="img-fluid" alt="">
+                                            </figure>
+                                        </a>
+                                    </div>
+                                    <div class="item">
+                                        <a href="javascript:;" class="grid_item_adventure">
+                                            <figure>
+                                                <img src="media/new1.jpg?ver=1.1" class="img-fluid" alt="">
+                                            </figure>
+                                        </a>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <!--/row-->
+                </div>
+                <!--/container-->
+            </div>
+
+
+            <div class="call_section">
+                <div class="container clearfix">
+                    <div class="col-lg-7 col-md-6 float-right wow position-relative" data-wow-offset="250">
+                        <div class="block-reveal">
+                            <div class="block-vertical"></div>
+                            <div class="box_1" data-aos="zoom-in" data-aos-duration="4000">
+                                <h3>CERAMIC COATING</h3>
+                                <p>TRUE 9H HARDNESS : The Aviation grade 9H-LDC Extreme & 9H-LDC PRO is the only ceramic
+                                    coating on the market that offers True 9H Hardness with single coat. Due to its
+                                    hardness, protective layer created by 9H-LDC Extreme & 9H-LDC PRO is extremely
+                                    scratch resistant and creates an impenetrable barrier against elements.</p>
+                                <p class="readmore"><a href="products.html">Read More </a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="contact_info1 bk_color" data-aos="fade-up" data-aos-duration="2000">
+                <div class="container container-custom margin_80_55">
+                    <div class="main_title_2"><span><em></em></span>
+                        <h2 class="text-black">ULTRA DURABLE CERAMIC COATING & PPF</h2>
+                        <p></p>
+                        <div class="videoCoverImage aos-init aos-animate" data-aos="fade-right" data-aos-offset="100"
+                            data-aos-easing="ease-in-sine">
+                            <div
+                                onclick="thevid=document.getElementById('thevideo'); thevid.style.display='block'; this.style.display='none'">
+                                <img class="thumb" style="cursor: pointer;width:100%;" src="media/Video-image.jpg">
+                                <div class="icon">
+                                    <h5>
+                                        <i class="fa fa-play" aria-hidden="true"></i>
+                                    </h5>
+                                </div>
+                            </div>
+                            <div id="thevideo" style="display: none;">
+                                <iframe width="100%" height="560"
+                                    src="https://www.youtube.com/embed/hr3YyZv_-Pw?rel=0;&amp;autoplay=1&amp;mute=1&amp;loop=1"
+                                    frameborder="0" allowfullscreen="" include=""></iframe>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+
+
+
+
+
+            <div class="call_section mix" style="display: block;">
+                <div class="container clearfix">
+                    <div class="col-lg-7 col-md-6 wow mx-auto" data-wow-offset="250">
+                        <div class="block-reveal">
+                            <div class="block-vertical"></div>
+                            <div class="box_1">
+                                <h3> WHAT WE OFFER</h3>
+                                <p> Our products are curated and modified with the help of nanotechnology to ensure
+                                    better durability,
+                                    shine and protection. We design our products with the sole motive of taking care of
+                                    the interiors as
+                                    well as the exteriors of each automobile.</p>
+                                <p class="readmore"><a href="services.html">Read More</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            </main>
+            <div class="bg_color_1 bk_color">
+                <div class="container container-custom margin_80_55">
+
+                    <div class="row adventure_feat">
+                        <div class="col-md-4 text-center" data-aos="flip-left" data-aos-easing="ease-out-cubic"
+                            data-aos-duration="2000">
+                            <img src="media/seal-healing-features.jpg?ver=1.1" alt="" class="img-fluid">
+                            <h3 class=" text-black">Contact Us</h3>
+
+                            <p class="cdetails readmore text-black">Always Dry is committed to providing you an
+                                effective and timely response.</p>
+                            <p class="readmore text-black"><a href="contact.html" class="btn_11">Contact Us</a></p>
+                        </div>
+                        <div class="col-md-4 text-center" data-aos="flip-left" data-aos-easing="ease-out-cubic"
+                            data-aos-duration="2000">
+                            <img src="media/contact3.jpg?ver=1.1" alt="" class="img-fluid">
+                            <h3 class=" text-black">Products</h3>
+
+                            <p class="cdetails text-black">The sole mission was to promote a product that was in sync
+                                with technology and protection. </p>
+
+                            <p class="readmore text-black"><a href="products.html" class="btn_11">Read More</a></p>
+                        </div>
+                        <div class="col-md-4 text-center" data-aos="flip-left" data-aos-easing="ease-out-cubic"
+                            data-aos-duration="2000">
+                            <img src="media/contact-new.jpeg?ver=1.1" alt="" class="img-fluid">
+                            <h3 class=" text-black">Latest Offers</h3>
+
+                            <p class="cdetails text-black">Explore all the latest offers of the World-class vehicles
+                                with performance, luxury at fraction of price.</p>
+                            <p class="readmore text-black"><a href="contact.html" class="btn_11">Latest Offers</a></p>
+                        </div>
+                    </div>
+
+
+                </div>
+                <!-- /container -->
+            </div>
+            <section
+                style="background: #ecdfc9;background-image: URL(media/bg_call_section.jpg);background-size:cover;background-repeat: no-repeat;">
+                <div class="container-fluid py-2" style="background-color: #33333361;">
+                    <div class="row text-center  margin_80_55">
+                        <div class="col-md-12  main_title_2"><span><em></em></span>
+                            <h2>TESTIMONIALS</h2>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <!-- <div class="mobobanner mb-5">
+                                <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                                    <div class="carousel-indicators  hidden-xs">
+                                        <button type="button" data-bs-target="#carouselExampleIndicators"
+                                            data-bs-slide-to="0" class="active" aria-current="true"
+                                            aria-label="Slide 1"></button>
+                                        <button type="button" data-bs-target="#carouselExampleIndicators"
+                                            data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                        <button type="button" data-bs-target="#carouselExampleIndicators"
+                                            data-bs-slide-to="2" aria-label="Slide 3"></button>
+                                        <button type="button" data-bs-target="#carouselExampleIndicators"
+                                            data-bs-slide-to="3" aria-label="Slide 3"></button>
+                                    </div>
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item active">
+                                            
+                                            <div class="imgphn d-block w-100">
+                                                <div>
+                                                    <div class="testi_img"><img src="media/sumit.png" /><img
+                                                            class="google" src="media/google.svg" /></div>
+                                                    <p>Car was transformed to a new one . Worth the pricing.</p>
+                                                    <h4>Sumit Chawla</h4>
+                                                    <p>
+
+                                                        2022-11-16
+                                                    </p>
+
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                        <div class="carousel-item">
+                                            <div class="imgphn d-block w-100">
+                                                <div>
+                                                    <div class="testi_img"><img src="media/randhir.png" /><img
+                                                            class="google" src="media/google.svg" /></div>
+
+                                                    <p>
+
+                                                        Best service got from 2years in my MG Hector</p>
+                                                    <h4>RanDhir Singh </h4>
+                                                    <p> 2022-11-14</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="carousel-item">
+                                            <div class="imgphn d-block w-100">
+                                                <div>
+                                                    <div class="testi_img"><img src="media/s.singh.png" /><img
+                                                            class="google" src="media/google.svg" /></div>
+                                                    <p>
+                                                        Excellent car detailing and PPF installation. Staff is Very
+                                                        courteous ,prompt, disciplined and polite with very good
+                                                        workmanship.The workshop Manager and the owner are Very
+                                                        transparent in their dealings and providing world class
+                                                        services with equally competent professional ethics. As a
+                                                        customer we are 100% satisfied.</p>
+                                                    <h4>S. Singh</h4>
+                                                    
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="carausel-item">
+
+                                            <div class="imgphn d-block w-100">
+                                                <div>
+                                                    <div class="testi_img"><img src="media/vinod.png" /><img
+                                                            src="media/google.svg" /></div>
+                                                    <p>One of the best places in Delhi NCR to get ceramic coating and
+                                                        PPF done. They use the best products available in the market.
+                                                        Highly recomended.</p>
+                                                    <p><span class="ti-stars"><span class="ti-star f"></span><span
+                                                                class="ti-star f"></span><span
+                                                                class="ti-star f"></span><span
+                                                                class="ti-star f"></span><span
+                                                                class="ti-star f"></span></span></p>
+
+                                                    <h4>Vinod Dabas</h4>
+                                                    <p>
+                                                        2022-11-12</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <a class="carousel-control-prev" type="button"
+                                        data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                        <span class="visually-hidden hidden-xs">Previous</span>
+                                    </a>
+                                    <a class="carousel-control-next" type="button"
+                                        data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                        <span class="visually-hidden hidden-xs">Next</span>
+                                    </a>
+                                </div>
+                            </div> -->
+                            <div class="banner1 container1" data-aos="fade-up" data-aos-duration="2000">
+                                <section id="dg-container" class="dg-container">
+                                    <div class="dg-wrapper">
+                                        <!-- <a href="javascript:void(0);" class=""
+                                            style="opacity: 1; transform: translateX(466px) translateZ(-300px) rotateY(-25deg); visibility: visible;">
+                                            <div class="img1">
+                                                <div>
+
+
+                                                    <div class="testi_img"><img src="media/sumit.png" /><img
+                                                            class="google" src="media/google.svg" /></div>
+                                                    <p>Car was transformed to a new one . Worth the pricing.</p>
+                                                    <h4>Sumit Chawla</h4>
+                                                </div>
+                                            </div>
+                                        </a>
+                                        <a href="javascript:void(0);" class=""
+                                            style="opacity: 0; transform: translateX(-466px) translateZ(-300px) rotateY(25deg); visibility: hidden;">
+                                            <div class="img1">
+                                                <div>
+                                                    <div class="testi_img"><img src="media/randhir.png" /><img
+                                                            class="google" src="media/google.svg" /></div>
+                                                    <p>
+                                                        Best service got from 2years in my MG Hector</p>
+                                                    <h4>RanDhir Singh </h4>
+                                                    <p>
+                                                        2022-11-14</p>
+                                                </div>
+                                            </div>
+                                        </a>
+                                        <a href="javascript:void(0);" class=""
+                                            style="opacity: 1; visibility: visible; transform: translateX(-466px) translateZ(-300px) rotateY(25deg);">
+                                            <div class="img1">
+                                                <div>
+                                                    <div class="testi_img"><img src="media/s.singh.png" /><img
+                                                            class="google" src="media/google.svg" /></div>
+                                                    <p>
+                                                        Excellent car detailing and PPF installation. Staff is Very
+                                                        courteous ,prompt, disciplined and polite with very good
+                                                        workmanship.The workshop Manager and the owner are Very
+                                                        transparent in their dealings and providing world class
+                                                        services with equally competent professional ethics. As a
+                                                        customer we are 100% satisfied.</p>
+                                                    <h4>S. Singh</h4>
+                                                    <p>2022-11-12</p>
+                                                </div>
+                                            </div>
+                                        </a>
+                                        <a href="null" class="dg-center"
+                                            style="opacity: 1; transform: translateX(0px) translateZ(0px) rotateY(0deg); visibility: visible;">
+                                            <div class="img1">
+                                                <div>
+                                                    <div class="testi_img"><img src="media/vinod.png" /><img
+                                                            class="google" src="media/google.svg" /></div>
+                                                    <p>
+                                                        One of the best places in Delhi NCR to get ceramic coating and
+                                                        PPF done. They use the best products available in the market.
+                                                        Highly recomended.</p>
+                                                    <h4>Vinod Dabas </h4>
+                                                    <p> 2022-11-12</p>
+
+                                                </div>
+                                            </div>
+                                        </a> -->
+                                    </div>
+                                    <ol class="button" id="lightButton">
+                                        <!-- <li index="0" class=""></li>
+                                        <li index="1" class=""></li>
+                                        <li index="2" class=""></li>
+                                        <li index="3" class=""></li>
+                                        <li index="4"></li> -->
+                                    </ol>
+
+                                    <nav>
+                                        <span class="dg-prev"></span>
+                                        <span class="dg-next"></span>
+                                    </nav>
+                                </section>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <footer>
+
+                <div class="container container-custom margin_80_55">
+                    <div class="row">
+                        <div class="col-lg-4 col-md-12 p-r-5 center">
+
+                            <p style="text-align:center" data-aos="fade-up-right" data-aos-duration="2000"><img
+                                    src="media/Shieldlogo.webp" width="22%" alt=""><br />
+                                <br /><img class="flogo" src="media/logo.png?ver=1.1" width="65%" alt="">
+                            </p>
+
+
+                        </div>
+                        <div class="col-lg-4 col-md-12" data-aos="fade-up" data-aos-duration="2000">
+                            <h4>GET IN TOUCH</h4>
+
+                            <p><i class="fa fa-map-marker"></i>&nbsp; <span
+                                    style="display:inline-block;    vertical-align: top;"> B7 Ground Floor, Mansarover
+                                    Garden<br />
+                                    New Delhi-110 015, India</span><br /><br />
+                                <i class="fa fa-phone"></i>&nbsp; +91 11 4141 5041,+91 999 941 5021
+                                <br /><br />
+                                <i class="fa fa-envelope"></i>&nbsp; alwaysdrynewdelhi@gmail.com
+
+                            </p>
+                            <div class="social">&nbsp;
+                                <span class="facebook"><a href="https://www.facebook.com/alwaysdrynewdelhi"
+                                        target="_blank"><i class="fa fa-facebook"></i></a></span>&nbsp;
+                                <span class="youtube"><a href="https://www.youtube.com/@alwaysdrynewdelhi6493"
+                                        target="_blank"><i class="fa fa-youtube-play"></i></a></span>&nbsp;
+                                <span class="instagram"><a
+                                        href="https://www.instagram.com/alwaysdry.newdelhi/?igshid=YmMyMTA2M2Y%3D"
+                                        target="_blank"><i class="fa fa-instagram"></i></a></span>
+                            </div>
+
+
+                        </div>
+                        <div class="col-lg-4 col-md-12" data-aos="fade-up-left" data-aos-duration="2000">
+
+                            <div>
+                                <div class="quick_links text-center">
+                                    <h4>QUICK LINKS</h4>
+                                    <ul>
+                                        <li><a href="index.html">Home</a></li>
+                                        <li><a href="about.html">About</a></li>
+                                        <li><a href="products.html">Products</a></li>
+                                        <li><a href="services.html">Services</a></li>
+                                        <li><a href="gallery.html">Gallery</a></li>
+                                        <li><a href="contact.html">Contact US</a></li>
+                                    </ul>
+                                </div>
+
+
+                            </div>
+
+                        </div>
+
+
+                    </div>
+
+                </div>
+
+            </footer>
+            <div class="text-center design">Designed By: <a href=""
+                    target="_blank">Ritu</a></div>
+        </div>
+
+        <div id="toTop"></div><!-- Back to top button -->
+        <div id="fixed-social" class="hidden-xs">
+            <div>
+                <a href="https://wa.me/+919999415021" target="_blank">
+                    <i>
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" aria-labelledby="title"
+                            aria-describedby="desc" role="img" xmlns:xlink="http://www.w3.org/1999/xlink">
+                            <title>WhatsApp</title>
+                            <desc>A line styled icon from Orion Icon Library.</desc>
+                            <path data-name="layer2"
+                                d="M30.287 2.029A29.769 29.769 0 0 0 5.223 45.266L2.064 60.6a1.158 1.158 0 0 0 1.4 1.361L18.492 58.4A29.76 29.76 0 1 0 30.287 2.029zm17.931 46.2"
+                                fill="none" stroke="#ffffff" stroke-linecap="round" stroke-miterlimit="10"
+                                stroke-width="2" stroke-linejoin="round"></path>
+                            <path data-name="layer1"
+                                d="M46.184 38.205l-5.765-1.655a2.149 2.149 0 0 0-2.126.561l-1.41 1.436a2.1 2.1 0 0 1-2.283.482c-2.727-1.1-8.463-6.2-9.927-8.754a2.1 2.1 0 0 1 .166-2.328l1.23-1.592a2.148 2.148 0 0 0 .265-2.183l-2.424-5.485a2.149 2.149 0 0 0-3.356-.769c-1.609 1.361-3.517 3.428-3.749 5.719-.409 4.039 1.323 9.13 7.872 15.242 7.566 7.063 13.626 8 17.571 7.04 2.238-.542 4.026-2.714 5.154-4.493a2.15 2.15 0 0 0-1.218-3.221z"
+                                fill="none" stroke="#ffffff" stroke-linecap="round" stroke-miterlimit="10"
+                                stroke-width="2" stroke-linejoin="round"></path>
+                        </svg>
+                    </i> <span>WhatsApp Chat</span>
+                </a>
+            </div>
+            <div>
+                <a href="contact.html">
+
+                    <i>
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" aria-labelledby="title"
+                            aria-describedby="desc" role="img" xmlns:xlink="http://www.w3.org/1999/xlink">
+                            <title>Appointment</title>
+                            <desc>A line styled icon from Orion Icon Library.</desc>
+                            <circle data-name="layer2" cx="32" cy="32" r="30" fill="none" stroke="#ffffff"
+                                stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" stroke-linejoin="round">
+                            </circle>
+                            <path data-name="layer2" fill="none" stroke="#ffffff" stroke-linecap="round"
+                                stroke-miterlimit="10" stroke-width="2" d="M32 2v6m0 48v6M2 32h6m48 0h6"
+                                stroke-linejoin="round"></path>
+                            <path data-name="layer1" fill="none" stroke="#ffffff" stroke-linecap="round"
+                                stroke-miterlimit="10" stroke-width="2" d="M48 20L32 36l-11-9" stroke-linejoin="round">
+                            </path>
+                        </svg>
+                    </i> <span>Service appointment</span>
+                </a>
+            </div>
+            <div>
+                <a href="gallery.html">
+                    <i>
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" aria-labelledby="title"
+                            aria-describedby="desc" role="img" xmlns:xlink="http://www.w3.org/1999/xlink">
+                            <title>Car</title>
+                            <desc>A line styled icon from Orion Icon Library.</desc>
+                            <path data-name="layer2"
+                                d="M16 48v4a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2v-4.2m56 0V52a2 2 0 0 1-2 2h-8a2 2 0 0 1-2-2v-4M24 34h16"
+                                fill="none" stroke="#ffffff" stroke-linecap="round" stroke-linejoin="round"
+                                stroke-width="2"></path>
+                            <path data-name="layer1"
+                                d="M54 22l-8-12H18l-8 12-8 8v15a3 3 0 0 0 3 3h54a3 3 0 0 0 3-3V30zM8.2 24H56M2 40h60M2 22h8m44 0h8"
+                                fill="none" stroke="#ffffff" stroke-linecap="round" stroke-linejoin="round"
+                                stroke-width="2"></path>
+                            <path data-name="layer1" fill="none" stroke="#ffffff" stroke-linecap="round"
+                                stroke-linejoin="round" stroke-width="2" d="M2 32h10l8 8m42-8H52l-8 8"></path>
+                        </svg>
+                    </i> <span>Our Work</span>
+                </a>
+            </div>
+            <div>
+                <a href="contact.html">
+                    <i>
+                        <svg viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg" aria-labelledby="title"
+                            aria-describedby="desc" role="img" xmlns:xlink="http://www.w3.org/1999/xlink">
+                            <title>Read Email</title>
+                            <desc>A line styled icon from Orion Icon Library.</desc>
+                            <path d="M54 33.6V2H10v31.6M18 12h10m-4 8h22m-28 8h28" stroke-width="2"
+                                stroke-miterlimit="10" stroke="#ffffff" fill="none" data-name="layer2"
+                                stroke-linejoin="round" stroke-linecap="round"></path>
+                            <path
+                                d="M42.08 41.944L62 28M2 28l19.92 13.944M2 62l20.929-21.071c3.905-3.9 14.237-3.9 18.143 0L62 62"
+                                stroke-width="2" stroke-miterlimit="10" stroke="#ffffff" fill="none" data-name="layer1"
+                                stroke-linejoin="round" stroke-linecap="round"></path>
+                            <path d="M54 21.063L62 28v34H2V28l8-6.937" stroke-width="2" stroke-miterlimit="10"
+                                stroke="#ffffff" fill="none" data-name="layer1" stroke-linejoin="round"
+                                stroke-linecap="round"></path>
+                        </svg>
+                    </i> <span>Contact Us</span>
+                </a>
+            </div>
+
+        </div>
+        <div id="MasterUpdatePanel">
+
+
+
+            <div class="slider_content_box clearfix" style="position: relative;"></div>
+
+
+
+
+
+            <script type="text/javascript">
+
+
+                function WebScrollPollAnswerTo(y) {
+                    $('html, body').delay(0).animate({ scrollTop: y }, 1000);
+                }
+
+
+            </script>
+
+
+
+
+
+
+            <style>
+                .panel-community.element-loaded a,
+                .connect a {
+                    margin-bottom: 0;
+                }
+
+                .panel-full-width h2.fsElementTitle {
+                    text-align: center;
+                }
+
+                .loadmore {
+                    text-align: center;
+                    background-color: #f7e18b;
+                    margin-top: 2rem;
+                }
+
+                .loadmore h2 {
+
+                    padding: 2rem;
+                }
+
+                .loadmore:hover {
+                    background-color: #173e30;
+
+                }
+
+                /*  .loadmore:hover h2{
+     color: #f7e18b;
+}  */
+                main#fsPageContent.fsPageContent.newsstart {
+                    padding-top: 2rem;
+                }
+
+                .demo-title h1 {
+                    font-family: MarkPro-Heavy, Times New Roman, Arial, Helvetica, sans-serif;
+                    font-weight: 300;
+                    font-style: normal;
+                    -webkit-font-smoothing: antialiased;
+                    -moz-osx-font-smoothing: grayscale;
+                    color: #173e30;
+                    text-transform: uppercase;
+                    letter-spacing: .015em;
+                    line-height: 1.3em;
+                    font-size: 2.25rem;
+                }
+
+                .panel-full-boundry h2 {
+                    padding-bottom: 0.5rem;
+                }
+
+                .demo-video-slider {
+                    padding: 60px 0;
+                }
+            </style>
+
+
+
+
+
+
+        </div>
+    </div>
+    <div class="clearfix"></div>
+
+    <div class="container-fluid site-bottom clearfix">
+        <div class="row">
+            <div id="bottomVisitor" class="bottom-visitor">
+                <div class="container">
+
+                    <div id="divVisitorCount" class="SpanVisitorCounter" style="width:100%;text-align:center;">
+
+                    </div>
+
+                </div>
+            </div>
+            <style type='text/css'></style>
+
+
+        </div>
+    </div>
+
+
+
+    </div>
+
+
+
+
+
+
+
+
+
+    <script type="text/javascript" language="javascript">try { Sys.WebForms.PageRequestManager.getInstance().add_endRequest(EndRequestHandler); }
+        catch (e) { }
+        try { Sys.WebForms.PageRequestManager.getInstance().add_beginRequest(BeginRequestHandler); }
+        catch (e) { }
+        function EndRequestHandler() { CheckModalForm(); }
+        function BeginRequestHandler() { showPleaseWait(); }
+        function CheckModalForm() { if (document.getElementById('divLoading')) { $('.divLoading').remove(); $('.modalCanvas').remove(); } }
+        window.onscroll = SetMasterDivPosition; function SetMasterDivPosition() { $("#AScrollPosition").text("Top : " + $(document).scrollTop()); if (document.getElementById("HMasterUpdatePanel")) { document.getElementById("HMasterUpdatePanel").value = $(document).scrollTop(); } }
+
+        //Music code starts
+        var divBackHtml = "";
+        var divAudioImg = document.getElementById("divaudioButton");
+        var divBackMusic = document.getElementById("divBackgroundMusic");
+        if (divBackMusic) {
+            divBackHtml = divBackMusic.innerHTML;
+            if (divAudioImg && divBackHtml.trim() != "") {
+                divAudioImg.style.display = "block";
+            }
+            else {
+                if (divAudioImg) {
+                    divAudioImg.style.display = "none";
+                }
+            }
+        }
+        else {
+            if (divAudioImg) {
+                divAudioImg.style.display = "none";
+            }
+        }
+
+        function onsoundChange(img) {
+            var divBack = document.getElementById("divBackgroundMusic");
+            if ($("#Imgaudio").attr("src") == "images/icon_mute.png") {
+                $("#Imgaudio").attr("src", "images/icon_audio.png")
+                img.title = "click to mute"
+                divBack.innerHTML = divBackHtml;
+                var song = document.getElementById('music_audio');
+                var played = false;
+                var tillPlayed = getCookie('timePlayed');
+                function update() {
+                    if (!played) {
+                        if (tillPlayed) {
+                            song.currentTime = tillPlayed;
+                            song.play();
+                            played = true;
+                        }
+                        else {
+                            song.play();
+                            played = true;
+                        }
+                    }
+                    else {
+                        setCookie('timePlayed', song.currentTime);
+                    }
+                }
+                setInterval(update, 100);
+            }
+            else {
+                $("#Imgaudio").attr("src", "images/icon_mute.png")
+                img.title = "click to play";
+                divBack.innerHTML = "";
+            }
+        }
+        function setCookie(c_name, value, exdays) {
+            var exdate = new Date();
+            exdate.setDate(exdate.getDate() + exdays);
+            var c_value = escape(value) + ((exdays == null) ? "" : "; expires=" + exdate.toUTCString());
+            document.cookie = c_name + "=" + c_value;
+        }
+
+        function getCookie(c_name) {
+            var i, x, y, ARRcookies = document.cookie.split(";");
+            for (i = 0; i < ARRcookies.length; i++) {
+                x = ARRcookies[i].substr(0, ARRcookies[i].indexOf("="));
+                y = ARRcookies[i].substr(ARRcookies[i].indexOf("=") + 1);
+                x = x.replace(/^\s+|\s+$/g, "");
+                if (x == c_name) {
+                    return unescape(y);
+                }
+            }
+        }
+
+        //Music code end
+
+
+    </script>
+    <script type="text/javascript">$(document).ready(function () {
+            try {
+                $(document).ready(function () { $(".tab-Container ul.tabs li").click(function () { var divID = $(this).closest('div').attr('id'); $("#" + divID + " ul.tabs li").removeClass("active"); $(this).addClass("active"); $("#" + divID + "  .tab_content").hide(); var activeTab = $(this).attr("rel"); $("#" + divID + " ." + activeTab).fadeIn(); }); }); CheckBlankText(); CheckBlankFooterText(); setsfMenuBGColor(); setDoubleMenuBGColor(); setMainMenuActive(); setCurrentMenuActive(); setMenuFontColor(); checkBrowser(); CheckBlankManuText(); if (document.getElementById("HDisableRClick").value == "1") { $(document).bind("contextmenu", function (e) { e.preventDefault(); }); }
+                if (document.getElementById("HAutoScroll").value == "False") { var bool = false; }
+                else { var bool = true; }
+                $('#carouselh').jsCarousel({ onthumbnailclick: function (src) { alert(src); }, autoscroll: bool, circular: true, masked: false, itemstodisplay: 4, orientation: 'h' });
+            }
+            catch (e) { }
+        });</script>
+
+    <!--animation script-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <script>
+        var slideIndex = 0;
+        var slides = document.getElementsByClassName('slide');
+
+        function showSlide(n) {
+            if (n < 0) {
+                slideIndex = slides.length - 1;
+            } else if (n >= slides.length) {
+                slideIndex = 0;
+            }
+
+            for (var i = 0; i < slides.length; i++) {
+                slides[i].style.display = 'none';
+            }
+
+            slides[slideIndex].style.display = 'block';
+        }
+
+        function prevSlide() {
+            slideIndex--;
+            showSlide(slideIndex);
+        }
+
+        function nextSlide() {
+            slideIndex++;
+            showSlide(slideIndex);
+        }
+
+        showSlide(slideIndex);
+    </script>
+
+    <!-- COMMON SCRIPTS -->
+    <script src="js/common_scripts.js?ver=1.1"></script>
+    <script src="js/main.js?ver=3.0"></script>
+
+
+
+    <script>
+        let items = document.querySelectorAll(".c1 .c1i");
+
+        items.forEach((el) => {
+            const minPerSlide = 6;
+            let next = el.nextElementSibling;
+            for (var i = 1; i < minPerSlide; i++) {
+                if (!next) {
+                    // wrap carousel by using first child
+                    next = items[0];
+                }
+                let cloneChild = next.cloneNode(true);
+                el.appendChild(cloneChild.children[0]);
+                next = next.nextElementSibling;
+            }
+        });
+    </script>
+
+
+
+    <script>
+        $(function () {
+            SetTestimonialContent();
+            $("#dg-container").carrousel({
+                current: 0,
+                autoplay: true,
+                interval: 5000,
+            });
+        });
+
+        !(function (e, n, t) {
+            function r(e, n) {
+                return typeof e === n;
+            }
+            function o() {
+                var e, n, t, o, s, i, f;
+                for (var a in y) {
+                    if (
+                        ((e = []),
+                            (n = y[a]),
+                            n.name &&
+                            (e.push(n.name.toLowerCase()),
+                                n.options && n.options.aliases && n.options.aliases.length))
+                    )
+                        for (t = 0; t < n.options.aliases.length; t++)
+                            e.push(n.options.aliases[t].toLowerCase());
+                    for (
+                        o = r(n.fn, "function") ? n.fn() : n.fn, s = 0;
+                        s < e.length;
+                        s++
+                    )
+                        (i = e[s]),
+                            (f = i.split(".")),
+                            1 === f.length
+                                ? (Modernizr[f[0]] = o)
+                                : (!Modernizr[f[0]] ||
+                                    Modernizr[f[0]] instanceof Boolean ||
+                                    (Modernizr[f[0]] = new Boolean(Modernizr[f[0]])),
+                                    (Modernizr[f[0]][f[1]] = o)),
+                            C.push((o ? "" : "no-") + f.join("-"));
+                }
+            }
+            function s() {
+                return "function" != typeof n.createElement
+                    ? n.createElement(arguments[0])
+                    : _
+                        ? n.createElementNS.call(
+                            n,
+                            "http://www.w3.org/2000/svg",
+                            arguments[0]
+                        )
+                        : n.createElement.apply(n, arguments);
+            }
+            function i() {
+                var e = n.body;
+                return e || ((e = s(_ ? "svg" : "body")), (e.fake = !0)), e;
+            }
+            function f(e, t, r, o) {
+                var f,
+                    a,
+                    u,
+                    l,
+                    p = "modernizr",
+                    d = s("div"),
+                    c = i();
+                if (parseInt(r, 10))
+                    for (; r--;)
+                        (u = s("div")), (u.id = o ? o[r] : p + (r + 1)), d.appendChild(u);
+                return (
+                    (f = s("style")),
+                    (f.type = "text/css"),
+                    (f.id = "s" + p),
+                    (c.fake ? c : d).appendChild(f),
+                    c.appendChild(d),
+                    f.styleSheet
+                        ? (f.styleSheet.cssText = e)
+                        : f.appendChild(n.createTextNode(e)),
+                    (d.id = p),
+                    c.fake &&
+                    ((c.style.background = ""),
+                        (c.style.overflow = "hidden"),
+                        (l = S.style.overflow),
+                        (S.style.overflow = "hidden"),
+                        S.appendChild(c)),
+                    (a = t(d, e)),
+                    c.fake
+                        ? (c.parentNode.removeChild(c),
+                            (S.style.overflow = l),
+                            S.offsetHeight)
+                        : d.parentNode.removeChild(d),
+                    !!a
+                );
+            }
+            function a(e, n) {
+                return !!~("" + e).indexOf(n);
+            }
+            function u(e) {
+                return e
+                    .replace(/([a-z])-([a-z])/g, function (e, n, t) {
+                        return n + t.toUpperCase();
+                    })
+                    .replace(/^-/, "");
+            }
+            function l(e) {
+                return e
+                    .replace(/([A-Z])/g, function (e, n) {
+                        return "-" + n.toLowerCase();
+                    })
+                    .replace(/^ms-/, "-ms-");
+            }
+            function p(n, r) {
+                var o = n.length;
+                if ("CSS" in e && "supports" in e.CSS) {
+                    for (; o--;) if (e.CSS.supports(l(n[o]), r)) return !0;
+                    return !1;
+                }
+                if ("CSSSupportsRule" in e) {
+                    for (var s = []; o--;) s.push("(" + l(n[o]) + ":" + r + ")");
+                    return (
+                        (s = s.join(" or ")),
+                        f(
+                            "@supports (" + s + ") { #modernizr { position: absolute; } }",
+                            function (e) {
+                                return "absolute" == getComputedStyle(e, null).position;
+                            }
+                        )
+                    );
+                }
+                return t;
+            }
+            function d(e, n, o, i) {
+                function f() {
+                    d && (delete k.style, delete k.modElem);
+                }
+                if (((i = r(i, "undefined") ? !1 : i), !r(o, "undefined"))) {
+                    var l = p(e, o);
+                    if (!r(l, "undefined")) return l;
+                }
+                for (var d, c, m, v, h, y = ["modernizr", "tspan"]; !k.style;)
+                    (d = !0), (k.modElem = s(y.shift())), (k.style = k.modElem.style);
+                for (m = e.length, c = 0; m > c; c++)
+                    if (
+                        ((v = e[c]),
+                            (h = k.style[v]),
+                            a(v, "-") && (v = u(v)),
+                            k.style[v] !== t)
+                    ) {
+                        if (i || r(o, "undefined")) return f(), "pfx" == n ? v : !0;
+                        try {
+                            k.style[v] = o;
+                        } catch (g) { }
+                        if (k.style[v] != h) return f(), "pfx" == n ? v : !0;
+                    }
+                return f(), !1;
+            }
+            function c(e, n) {
+                return function () {
+                    return e.apply(n, arguments);
+                };
+            }
+            function m(e, n, t) {
+                var o;
+                for (var s in e)
+                    if (e[s] in n)
+                        return t === !1
+                            ? e[s]
+                            : ((o = n[e[s]]), r(o, "function") ? c(o, t || n) : o);
+                return !1;
+            }
+            function v(e, n, t, o, s) {
+                var i = e.charAt(0).toUpperCase() + e.slice(1),
+                    f = (e + " " + P.join(i + " ") + i).split(" ");
+                return r(n, "string") || r(n, "undefined")
+                    ? d(f, n, o, s)
+                    : ((f = (e + " " + T.join(i + " ") + i).split(" ")), m(f, n, t));
+            }
+            function h(e, n, r) {
+                return v(e, t, t, n, r);
+            }
+            var y = [],
+                g = {
+                    _version: "3.0.0",
+                    _config: {
+                        classPrefix: "",
+                        enableClasses: !0,
+                        enableJSClass: !0,
+                        usePrefixes: !0,
+                    },
+                    _q: [],
+                    on: function (e, n) {
+                        var t = this;
+                        setTimeout(function () {
+                            n(t[e]);
+                        }, 0);
+                    },
+                    addTest: function (e, n, t) {
+                        y.push({ name: e, fn: n, options: t });
+                    },
+                    addAsyncTest: function (e) {
+                        y.push({ name: null, fn: e });
+                    },
+                },
+                Modernizr = function () { };
+            (Modernizr.prototype = g), (Modernizr = new Modernizr());
+            var C = [],
+                S = n.documentElement,
+                w = "CSS" in e && "supports" in e.CSS,
+                x = "supportsCSS" in e;
+            Modernizr.addTest("supports", w || x);
+            var _ = "svg" === S.nodeName.toLowerCase(),
+                b = (g.testStyles = f),
+                z = "Moz O ms Webkit",
+                P = g._config.usePrefixes ? z.split(" ") : [];
+            g._cssomPrefixes = P;
+            var T = g._config.usePrefixes ? z.toLowerCase().split(" ") : [];
+            g._domPrefixes = T;
+            var E = { elem: s("modernizr") };
+            Modernizr._q.push(function () {
+                delete E.elem;
+            });
+            var k = { style: E.elem.style };
+            Modernizr._q.unshift(function () {
+                delete k.style;
+            }),
+                (g.testAllProps = v),
+                (g.testAllProps = h),
+                Modernizr.addTest("csstransforms3d", function () {
+                    var e = !!h("perspective", "1px", !0),
+                        n = Modernizr._config.usePrefixes;
+                    if (e && (!n || "webkitPerspective" in S.style)) {
+                        var t;
+                        Modernizr.supports
+                            ? (t = "@supports (perspective: 1px)")
+                            : ((t = "@media (transform-3d)"),
+                                n && (t += ",(-webkit-transform-3d)")),
+                            (t +=
+                                "{#modernizr{left:9px;position:absolute;height:5px;margin:0;padding:0;border:0}}"),
+                            b(t, function (n) {
+                                e = 9 === n.offsetLeft && 5 === n.offsetHeight;
+                            });
+                    }
+                    return e;
+                }),
+                Modernizr.addTest("csstransforms", function () {
+                    return (
+                        -1 === navigator.userAgent.indexOf("Android 2.") &&
+                        h("transform", "scale(1)", !0)
+                    );
+                }),
+                o(),
+                delete g.addTest,
+                delete g.addAsyncTest;
+            for (var A = 0; A < Modernizr._q.length; A++) Modernizr._q[A]();
+            e.Modernizr = Modernizr;
+        })(window, document);
+
+        (function ($) {
+            $.carrousel = function (options, element) {
+                this.$el = $(element);
+                this._init(options);
+            };
+
+            $.carrousel.defaults = {
+                current: 0, // index of current item
+                autoplay: true, // slideshow on / off
+                interval: 3000, // time between transitions
+            };
+
+            $.carrousel.prototype = {
+                _init: function (options) {
+                    this.options = $.extend(true, {}, $.carrousel.defaults, options);
+
+                    this.support3d = Modernizr.csstransforms3d;
+                    this.support2d = Modernizr.csstransforms;
+
+                    this.$wrapper = this.$el.find(".dg-wrapper");
+                    this.$items = this.$wrapper.children();
+                    this.itemsCount = this.$items.length;
+                    this.$nav = this.$el.find("nav");
+                    this.$navPrev = this.$nav.find(".dg-prev");
+                    this.$navNext = this.$nav.find(".dg-next");
+                    this.button = $("#lightButton li");
+                    this.box = $(".banner1");
+                    this.imgWidth = $(".banner1 .dg-wrapper .img1").width();
+
+                    this.indexB = 0;
+                    this.CSSX = 0;
+                    this.CSSXout = 0;
+
+                    this.button[0].classList.add("light");
+
+                    this.current = this.options.current;
+                    this.isAnim = false;
+                    this.$items.css({
+                        opacity: 1,
+                    });
+                    this._updateWidth();
+                    this._layout();
+                    // load the events
+                    this._loadEvents();
+                    // slideshow
+                    if (this.options.autoplay) {
+                        this._startSlideshow();
+                    }
+
+                    var _self = this;
+                    for (var i = 0, len = this.button.length; i < len; i++) {
+                        this.button[i].addEventListener("click", function () {
+                            var toIndex = parseInt(this.getAttribute("index"));
+                            var toMove = toIndex - _self.indexB;
+                            switch (toMove) {
+                                case 0:
+                                    break;
+                                case 1:
+                                    _self._navigate("next", "dg-transition");
+                                    break;
+                                case -1:
+                                    _self._navigate("prev", "dg-transition");
+                                    break;
+                                default:
+                                    _self._stopSlideshow();
+                                    var bTime = setInterval(function () {
+                                        if (!_self.isAnim) {
+                                            if (!toMove) {
+                                                clearInterval(bTime);
+                                                if (_self.options.autoplay) {
+                                                    _self._startSlideshow();
+                                                }
+                                            } else if (toMove > 0) {
+                                                _self._navigate("next", "dg-transition-fast");
+                                                toMove--;
+                                            } else if (toMove < 0) {
+                                                _self._navigate("prev", "dg-transition-fast");
+                                                toMove++;
+                                            }
+                                        }
+                                    }, 0);
+                                    break;
+                            }
+                        });
+                    }
+                },
+
+                _updateWidth: function () {
+                    if (this.support3d) {
+                        if (document.body.clientWidth < 1000) {
+                            this.CSSX =
+                                ($(this.box).width() - 10 - this.imgWidth * 0.7) / 2;
+                            this.CSSXout = 0;
+                        } else if (document.body.clientWidth >= 1000) {
+                            this.CSSX =
+                                (($(this.box).width() * 1.2 + 480 - 10 - this.imgWidth * 0.5) / 2) * 0.5;
+                            this.CSSXout = ($(this.box).width() * 1.2 + 480 - 10 - this.imgWidth * 0.5) / 2;
+                        }
+                    } else if (this.support2d) {
+                        if (document.body.clientWidth < 1464) {
+                            this.CSSX =
+                                ($(this.box).width() - 10 - this.imgWidth * 0.9) / 2;
+                            this.CSSXout = 0;
+                        } else if (document.body.clientWidth >= 1464) {
+                            this.CSSX =
+                                (($(this.box).width() - 10 - this.imgWidth * 0.8) / 2) * 0.7;
+                            this.CSSXout =
+                                ($(this.box).width() - 10 - this.imgWidth * 0.8) / 2;
+                        }
+                    }
+                },
+
+                _showButton: function () {
+                    var _self = this;
+                    for (var i = 0, len = _self.button.length; i < len; i++) {
+                        if (_self.button[i].classList.contains("light")) {
+                            _self.button[i].classList.remove("light");
+                            break;
+                        }
+                    }
+                    _self.button[_self.indexB].classList.add("light");
+                },
+
+                _click: function (element, move) {
+                    var _self = this;
+                    element.off("click.gallery");
+                    element.on("click.gallery", function () {
+                        if (!this.isAnim) {
+                            _self._navigate(move);
+                            if (_self.options.autoplay) {
+                                _self._startSlideshow();
+                            }
+                        }
+                    });
+                },
+
+                _layout: function () {
+                    this._setItems();
+
+                    this.$leftItm.css(this._getCoordinates("left"));
+                    this.$rightItm.css(this._getCoordinates("right"));
+                    this.$currentItm
+                        .css(this._getCoordinates("center"))
+                        .addClass("dg-center");
+
+                    this._click(this.$leftItm, "prev");
+                    this._click(this.$prevItm, "prev");
+
+                    this.$currentItm.off("click.carrousel");
+
+                    this._click(this.$rightItm, "next");
+                    this._click(this.$nextItm, "next");
+
+                    this.$nextItm.css(this._getCoordinates("outright"));
+                    this.$prevItm.css(this._getCoordinates("outleft"));
+
+                    this.$currentItm[0].href = this.$currentItm[0].getAttribute("link");
+                },
+
+                _setItems: function () {
+                    this.$items.removeClass("dg-center");
+
+                    this.$currentItm = this.$items.eq(this.current);
+                    this.$leftItm =
+                        this.current === 0
+                            ? this.$items.eq(this.itemsCount - 1)
+                            : this.$items.eq(this.current - 1);
+                    this.$rightItm =
+                        this.current === this.itemsCount - 1
+                            ? this.$items.eq(0)
+                            : this.$items.eq(this.current + 1);
+                    this.$nextItm =
+                        this.$rightItm.index() === this.itemsCount - 1
+                            ? this.$items.eq(0)
+                            : this.$rightItm.next();
+                    this.$prevItm =
+                        this.$leftItm.index() === 0
+                            ? this.$items.eq(this.itemsCount - 1)
+                            : this.$leftItm.prev();
+                },
+
+                _loadEvents: function () {
+                    var _self = this;
+                    this.$navPrev.on("click.carrousel", function () {
+                        _self._navigate("prev");
+                        return false;
+                    });
+
+                    this.$navNext.on("click.carrousel", function () {
+                        _self._navigate("next");
+                        return false;
+                    });
+
+                    this.$wrapper.on(
+                        "webkitTransitionEnd.carrousel transitionend.carrousel OTransitionEnd.carrousel",
+                        function () {
+                            _self.$currentItm.addClass("dg-center");
+                            _self.$items.removeClass("dg-transition");
+                            _self.$items.removeClass("dg-transition-fast");
+                            _self.isAnim = false;
+
+                            _self.$currentItm[0].href =
+                                _self.$currentItm[0].getAttribute("link");
+                            _self.$leftItm[0].href = "javascript:void(0);";
+                            _self.$rightItm[0].href = "javascript:void(0);";
+
+                            _self._click(_self.$leftItm, "prev");
+                            _self._click(_self.$prevItm, "prev");
+
+                            _self.$currentItm.off("click.gallery");
+
+                            _self._click(_self.$rightItm, "next");
+                            _self._click(_self.$nextItm, "next");
+                        }
+                    );
+                },
+
+                _getCoordinates: function (position) {
+                    if (this.support3d) {
+                        switch (position) {
+                            case "outleft":
+                                return {
+                                    opacity: 0,
+                                    visibility: "hidden",
+                                };
+                                break;
+                            case "outright":
+                                return {
+                                    opacity: 0,
+                                    visibility: "hidden",
+                                };
+                                break;
+                            case "left":
+                                return {
+                                    "-webkit-transform":
+                                        "translateX(-" + this.CSSX +"px) translateZ(-300px) rotateY(25deg)",
+                                    "-moz-transform":
+                                        "translateX(-" + this.CSSX + "px) translateZ(-300px) rotateY(25deg)",
+                                    "-o-transform":
+                                        "translateX(-" + this.CSSX +"px) translateZ(-300px) rotateY(25deg)",
+                                    "-ms-transform": "translateX(-" +this.CSSX +"px) translateZ(-300px) rotateY(25deg)",
+                                    transform:
+                                        "translateX(-" +this.CSSX +"px) translateZ(-300px) rotateY(25deg)",
+                                    opacity: 1,
+                                    visibility: "visible",
+                                };
+                                break;
+                            case "right":
+                                return {
+                                    "-webkit-transform": "translateX(" + this.CSSX + "px) translateZ(-300px) rotateY(-25deg)",
+                                    "-moz-transform":"translateX(" + this.CSSX +"px) translateZ(-300px) rotateY(-25deg)",
+                                    "-o-transform": "translateX(" +this.CSSX +"px) translateZ(-300px) rotateY(-25deg)",
+                                    "-ms-transform":"translateX(" +this.CSSX +"px) translateZ(-300px) rotateY(-25deg)",
+                                    transform:"translateX(" + this.CSSX +"px) translateZ(-300px) rotateY(-25deg)",
+                                    opacity: 1,
+                                    visibility: "visible",
+                                };
+                                break;
+                            case "center":
+                                return {
+                                    "-webkit-transform":
+                                        "translateX(0px) translateZ(0px) rotateY(0deg)",
+                                    "-moz-transform":
+                                        "translateX(0px) translateZ(0px) rotateY(0deg)",
+                                    "-o-transform":
+                                        "translateX(0px) translateZ(0px) rotateY(0deg)",
+                                    "-ms-transform":
+                                        "translateX(0px) translateZ(0px) rotateY(0deg)",
+                                    transform: "translateX(0px) translateZ(0px) rotateY(0deg)",
+                                    opacity: 1,
+                                    visibility: "visible",
+                                };
+                                break;
+                            case "hide":
+                                return {
+                                    "-webkit-transform": "translate(0px) scale(0.7)",
+                                    opacity: 0,
+                                    visibility: "hidden",
+                                    "z-index": 1,
+                                };
+                                break;
+                        }
+                    } else if (this.support2d) {
+                        switch (position) {
+                            case "outleft":
+                                return {
+                                    "-webkit-transform":
+                                        "translate(-" + this.CSSXout + "px) scale(0.8)",
+                                    "-moz-transform":
+                                        "translate(-" + this.CSSXout + "px) scale(0.8)",
+                                    "-o-transform":
+                                        "translate(-" + this.CSSXout + "px) scale(0.8)",
+                                    "-ms-transform":
+                                        "translate(-" + this.CSSXout + "px) scale(0.8)",
+                                    transform: "translate(-" + this.CSSXout + "px) scale(0.8)",
+                                    opacity: 1,
+                                    "z-index": 2,
+                                };
+                                break;
+                            case "outright":
+                                return {
+                                    "-webkit-transform":
+                                        "translate(" + this.CSSXout + "px) scale(0.8)",
+                                    "-moz-transform":
+                                        "translate(" + this.CSSXout + "px) scale(0.8)",
+                                    "-o-transform":
+                                        "translate(" + this.CSSXout + "px) scale(0.8)",
+                                    "-ms-transform":
+                                        "translate(" + this.CSSXout + "px) scale(0.8)",
+                                    transform: "translate(" + this.CSSXout + "px) scale(0.8)",
+                                    opacity: 1,
+                                    "z-index": 2,
+                                };
+                                break;
+                            case "left":
+                                return {
+                                    "-webkit-transform":
+                                        "translate(-" + this.CSSX + "px) scale(0.9)",
+                                    "-moz-transform":
+                                        "translate(-" + this.CSSX + "px) scale(0.9)",
+                                    "-o-transform":
+                                        "translate(-" + this.CSSX + "px) scale(0.9)",
+                                    "-ms-transform":
+                                        "translate(-" + this.CSSX + "px) scale(0.9)",
+                                    transform: "translate(-" + this.CSSX + "px) scale(0.9)",
+                                    opacity: 1,
+                                    visibility: "visible",
+                                    "z-index": 3,
+                                };
+                                break;
+                            case "right":
+                                return {
+                                    "-webkit-transform":
+                                        "translate(" + this.CSSX + "px) scale(0.9)",
+                                    "-moz-transform":
+                                        "translate(" + this.CSSX + "px) scale(0.9)",
+                                    "-o-transform": "translate(" + this.CSSX + "px) scale(0.9)",
+                                    "-ms-transform":
+                                        "translate(" + this.CSSX + "px) scale(0.9)",
+                                    transform: "translate(" + this.CSSX + "px) scale(0.9)",
+                                    opacity: 1,
+                                    visibility: "visible",
+                                    "z-index": 3,
+                                };
+                                break;
+                            case "center":
+                                return {
+                                    "-webkit-transform": "translate(0px) scale(1)",
+                                    "-moz-transform": "translate(0px) scale(1)",
+                                    "-o-transform": "translate(0px) scale(1)",
+                                    "-ms-transform": "translate(0px) scale(1)",
+                                    transform: "translate(0px) scale(1)",
+                                    opacity: 1,
+                                    visibility: "visible",
+                                    "z-index": 4,
+                                };
+                            case "hide":
+                                return {
+                                    "-webkit-transform": "translate(0px) scale(0.7)",
+                                    "-moz-transform": "translate(0px) scale(0.7)",
+                                    "-o-transform": "translate(0px) scale(0.7)",
+                                    "-ms-transform": "translate(0px) scale(0.7)",
+                                    transform: "translate(0px) scale(0.7)",
+                                    opacity: 0,
+                                    visibility: "hidden",
+                                    "z-index": 1,
+                                };
+                                break;
+                        }
+                    }
+                },
+
+                _navigate: function (dir, speedClass) {
+                    speedClass = speedClass || "dg-transition";
+                    if (!this.isAnim) {
+                        this._updateWidth();
+
+                        this.isAnim = true;
+                        var _self = this;
+
+                        switch (dir) {
+                            case "next":
+                                this.indexB++;
+                                if (this.indexB === this.itemsCount) {
+                                    this.indexB = 0;
+                                }
+                                this._showButton();
+                                this.current = this.$rightItm.index();
+                                // current item moves left
+                                this.$currentItm
+                                    .addClass(speedClass)
+                                    .css(this._getCoordinates("left"));
+
+                                // right item moves to the center
+                                this.$rightItm
+                                    .addClass(speedClass)
+                                    .css(this._getCoordinates("center"));
+
+                                // left item moves out
+                                this.$leftItm
+                                    .addClass(speedClass)
+                                    .css(this._getCoordinates("outleft"));
+
+                                this.$nextItm
+                                    .addClass(speedClass)
+                                    .css(this._getCoordinates("right"));
+
+                                if (this.itemsCount > 5) {
+                                    this.$prevItm
+                                        .addClass(speedClass)
+                                        .css(this._getCoordinates("hide"));
+                                    this.$prevItm.off("click.carrousel");
+                                }
+
+                                var nextEle =
+                                    this.$nextItm.index() === this.itemsCount - 1
+                                        ? this.$items.eq(0)
+                                        : this.$nextItm.next();
+                                $(nextEle)
+                                    .addClass(speedClass)
+                                    .css(this._getCoordinates("outright"));
+                                $(nextEle).off("click.carrousel");
+
+                                break;
+
+                            case "prev":
+                                this.indexB--;
+                                if (this.indexB === -1) {
+                                    this.indexB = this.itemsCount - 1;
+                                }
+                                this._showButton();
+                                this.current = this.$leftItm.index();
+                                // current item moves right
+                                this.$currentItm
+                                    .addClass(speedClass)
+                                    .css(this._getCoordinates("right"));
+
+                                // left item moves to the center
+                                this.$leftItm
+                                    .addClass(speedClass)
+                                    .css(this._getCoordinates("center"));
+
+                                // right item moves out
+                                this.$rightItm
+                                    .addClass(speedClass)
+                                    .css(this._getCoordinates("outright"));
+
+                                this.$prevItm
+                                    .addClass(speedClass)
+                                    .css(this._getCoordinates("left"));
+
+                                if (this.itemsCount > 5) {
+                                    this.$nextItm
+                                        .addClass(speedClass)
+                                        .css(this._getCoordinates("hide"));
+                                    this.$nextItm.off("click.carrousel");
+                                }
+
+                                var prevEle =
+                                    this.$prevItm.index() === 0
+                                        ? this.$items.eq(this.itemsCount - 1)
+                                        : this.$prevItm.prev();
+                                $(prevEle)
+                                    .addClass(speedClass)
+                                    .css(this._getCoordinates("outleft"));
+                                $(prevEle).off("click.carrousel");
+
+                                break;
+                        }
+                        this._setItems();
+                    }
+                },
+
+                _startSlideshow: function () {
+                    if (this.slideshow) {
+                        clearInterval(this.slideshow);
+                    }
+                    var _self = this;
+                    this.slideshow = setInterval(function () {
+                        if ($(".dg-center")[0] && !_self.isAnim) {
+                            _self._navigate("next");
+                        }
+                    }, this.options.interval);
+                },
+
+                _stopSlideshow: function () {
+                    clearTimeout(this.slideshow);
+                },
+            };
+
+            $.fn.carrousel = function (options) {
+                if (typeof options === "object") {
+                    this.each(function () {
+                        var instance = $.data(this, "carrousel");
+                        if (!instance) {
+                            $.data(this, "carrousel", new $.carrousel(options, this));
+                        }
+                    });
+                } else if (typeof options === "string") {
+                    this.each(function () {
+                        var instance = $.data(this, "carrousel");
+                        if (instance) {
+                            switch (options) {
+                                case "play":
+                                    instance._startSlideshow();
+                                    instance.options.autoplay = true;
+                                    break;
+                                case "stop":
+                                    instance._stopSlideshow();
+                                    instance.options.autoplay = false;
+                                    break;
+                                case "next":
+                                    instance._navigate("next");
+                                    break;
+                                case "prev":
+                                    instance._navigate("prev");
+                                    break;
+                            }
+                        }
+                    });
+                } else if (typeof options === "number") {
+                    this.each(function () {
+                        var instance = $.data(this, "carrousel");
+                        instance.button[options].click();
+                    });
+                }
+                return this;
+            };
+        })(jQuery);
+    </script>
+
+    <audio id="track">
+        <source src="media/music.mp3" type="audio/mpeg" />
+    </audio>
+
+    <div id="player-container">
+        <div id="play-pause" class="play">Play</div>
+    </div>
+    <style>
+        #player-container {
+            float: right;
+            right: 4.5vh;
+            position: fixed;
+            bottom: 11vh;
+            z-index: 9;
+        }
+
+        #player-container #play-pause {
+            cursor: pointer;
+            text-indent: -999999px;
+            height: 40px;
+            width: 40px;
+            padding: 12px 18px;
+            z-index: 2;
+            background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0Ij48cGF0aCBkPSJNMiAyNHYtMjRsMjAgMTItMjAgMTJ6Ii8+PC9zdmc+);
+            background-repeat: no-repeat !important;
+            background-position: center;
+            background-size: 16px;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: 20px;
+            background-color: gainsboro;
+            border-radius: 28px;
+        }
+
+        .play {
+            background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0Ij48cGF0aCBkPSJNMiAyNHYtMjRsMjAgMTItMjAgMTJ6Ii8+PC9zdmc+);
+        }
+
+        .pause {
+            background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0Ij48cGF0aCBkPSJNMTAgMjRoLTZ2LTI0aDZ2MjR6bTEwLTI0aC02djI0aDZ2LTI0eiIvPjwvc3ZnPg==) !important;
+        }
+
+        @media screen and (max-width:767px) {
+            #player-container {
+                right: 4vh;
+            }
+
+            .imageRotate .owl-stage-outer .owl-stage .owl-item .item img {
+                height: 100%;
+            }
+        }
+    </style>
+    <script>
+        var track = document.getElementById('track');
+        var controlBtn = document.getElementById('play-pause');
+        function playPause() {
+            if (track.paused) {
+                track.play();
+                //controlBtn.textContent = "Pause";
+                controlBtn.className = "pause";
+            } else {
+                track.pause();
+                //controlBtn.textContent = "Play";
+                controlBtn.className = "play";
+            }
+        }
+        controlBtn.addEventListener("click", playPause);
+        track.addEventListener("ended", function () {
+            controlBtn.className = "play";
+        });
+
+    </script>
+
+</body>
+
+</html>
